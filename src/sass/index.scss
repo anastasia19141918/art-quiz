@@ -1,1 +1,12 @@
 @import './normalize.css';
+
+@import'abstract/constans';
+
+@import'base/logoTitle';
+@import'base/base';
+
+@import'layouts/wrapper';
+@import'layouts/body';
+@import'layouts/header';
+@import'layouts/picture';
+@import'layouts/footer';

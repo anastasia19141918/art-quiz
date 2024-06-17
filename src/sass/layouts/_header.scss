@@ -1,0 +1,16 @@
+.header {
+  padding: 30px;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: right;
+}
+
+.header__setting {
+  width: 36px;
+  height: 36px;
+  background-image: url('../../src/img/setting/settings.png');
+
+  cursor: pointer;
+}

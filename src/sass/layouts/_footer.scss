@@ -1,0 +1,21 @@
+.footer {
+  padding: 17% 30px 10px 30px;
+}
+
+.footer__link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer__media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer__desk {
+  padding-left: 50px;
+  color: $color-logo;
+  font-size: 2.0rem;
+}
