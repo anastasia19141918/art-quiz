@@ -1,3 +1,7 @@
+@mixin media-desktop {
+  @media (max-width: $media-desktop) { @content; }
+};
+
 @mixin media-tablet-big {
   @media (max-width: $media-tablet-big) { @content; }
 };
@@ -12,4 +16,8 @@
 
 @mixin media-mobale-small {
   @media (max-width: $media-mobale-small) { @content; }
+};
+
+@mixin media-small {
+  @media (max-width: $media-small) { @content; }
 };
