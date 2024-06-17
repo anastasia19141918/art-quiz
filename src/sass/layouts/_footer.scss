@@ -1,21 +1,46 @@
 .footer {
   padding: 17% 30px 10px 30px;
+  @include media-mobale {
+    padding: 17% 5px 5px 5px;
+  }
 }
 
 .footer__link {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  @include media-mobale-small {
+    justify-content: left;
+  }
+}
+
+.footer__school_move {
+  @include media-mobale-big {
+    width: 61px;
+    height: 23px;
+  }
 }
 
 .footer__media {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  @include media-mobale-small {
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 0 20px;
+  }
 }
 
 .footer__desk {
   padding-left: 50px;
   color: $color-logo;
   font-size: 2.0rem;
+  @include media-mobale-big {
+    padding-left: 30px;
+    font-size: 1.5rem;
+  }
+  @include media-mobale-small {
+    padding-left: 4px;
+  }
 }
