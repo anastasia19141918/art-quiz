@@ -4,7 +4,7 @@
 }
 
 .logo__title {
-  margin: 0 0 40px 0;
+  margin: 0 0 30px 0;
   text-align: center;
   color: #fffbde;
   font-size: 5.7rem;
@@ -56,7 +56,7 @@ html {
 }
 
 .picture {
-  padding: 30px;
+  padding: 60px 30px;
 }
 @media (max-width: 325px) {
   .picture {
@@ -102,9 +102,19 @@ html {
 .footer {
   padding: 37% 30px 10px 30px;
 }
+@media (max-width: 1077px) {
+  .footer {
+    padding: 28% 30px 10px 30px;
+  }
+}
 @media (max-width: 952px) {
   .footer {
-    padding: 30% 30px 10px 30px;
+    padding: 15% 30px 10px 30px;
+  }
+}
+@media (max-width: 930px) {
+  .footer {
+    padding: 20% 30px 10px 30px;
   }
 }
 @media (max-width: 455px) {
