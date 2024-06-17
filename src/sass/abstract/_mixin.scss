@@ -1,3 +1,11 @@
+@mixin media-desktop-big {
+  @media (max-width: $media-desktop-big) { @content; }
+};
+
+@mixin media-desktop-small {
+  @media (max-width: $media-desktop-small) { @content; }
+};
+
 @mixin media-desktop {
   @media (max-width: $media-desktop) { @content; }
 };

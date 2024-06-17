@@ -1,7 +1,13 @@
 .footer {
   padding: 37% 30px 10px 30px;
+  @include media-desktop-big {
+    padding: 28% 30px 10px 30px;
+  }
   @include media-desktop {
-    padding: 30% 30px 10px 30px;
+    padding: 15% 30px 10px 30px;
+  }
+  @include media-desktop-small {
+    padding: 20% 30px 10px 30px;
   }
   @include media-mobale-big {
     padding: 40% 5px 5px 5px;
