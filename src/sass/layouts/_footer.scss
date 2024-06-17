@@ -1,7 +1,16 @@
 .footer {
-  padding: 17% 30px 10px 30px;
+  padding: 37% 30px 10px 30px;
+  @include media-desktop {
+    padding: 30% 30px 10px 30px;
+  }
+  @include media-mobale-big {
+    padding: 40% 5px 5px 5px;
+  }
   @include media-mobale {
-    padding: 17% 5px 5px 5px;
+    padding: 50% 5px 5px 5px;
+  }
+  @include media-mobale-small {
+    padding: 78% 5px 5px 5px;
   }
 }
 
@@ -11,6 +20,10 @@
   justify-content: space-between;
   @include media-mobale-small {
     justify-content: left;
+  }
+  @include media-small {
+    flex-direction: column;
+    gap: 5px 0;
   }
 }
 
@@ -29,6 +42,10 @@
     flex-wrap: wrap;
     align-content: center;
     gap: 0 20px;
+  }
+  @include media-small {
+    flex-direction: column;
+    align-content:flex-start;
   }
 }
 
