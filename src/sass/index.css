@@ -1,0 +1,158 @@
+@import './normalize.css';
+.logo {
+  padding: 30px;
+}
+
+.logo__title {
+  margin: 0 0 40px 0;
+  text-align: center;
+  color: #fffbde;
+  font-size: 5.7rem;
+  font-weight: 200;
+  letter-spacing: 0.5rem;
+}
+@media (max-width: 303px) {
+  .logo__title {
+    font-size: 4rem;
+  }
+}
+
+html {
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.body {
+  width: 100%;
+  background-image: url("../../src/img/pic/photo_2024-06-16_15-59-07.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header {
+  padding: 30px;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: right;
+}
+
+.header__setting {
+  width: 36px;
+  height: 36px;
+  background-image: url("../../src/img/setting/settings.png");
+  cursor: pointer;
+}
+
+.picture {
+  padding: 30px;
+}
+@media (max-width: 325px) {
+  .picture {
+    padding: 5px;
+  }
+}
+
+.picture__nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+@media (max-width: 634px) {
+  .picture__nav {
+    flex-direction: column;
+    gap: 20px 0;
+    align-items: center;
+  }
+}
+
+.picture__link {
+  width: 260px;
+  padding: 8px 5px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  border: 2px solid #fffbf4;
+  border-radius: 20px;
+  color: #fffbf4;
+}
+@media (max-width: 303px) {
+  .picture__link {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 303px) {
+  .picture__link {
+    width: 200px;
+  }
+}
+
+.footer {
+  padding: 17% 30px 10px 30px;
+}
+@media (max-width: 325px) {
+  .footer {
+    padding: 17% 5px 5px 5px;
+  }
+}
+
+.footer__link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media (max-width: 303px) {
+  .footer__link {
+    justify-content: left;
+  }
+}
+
+@media (max-width: 455px) {
+  .footer__school_move {
+    width: 61px;
+    height: 23px;
+  }
+}
+
+.footer__media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+@media (max-width: 303px) {
+  .footer__media {
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 0 20px;
+  }
+}
+
+.footer__desk {
+  padding-left: 50px;
+  color: #fffbde;
+  font-size: 2rem;
+}
+@media (max-width: 455px) {
+  .footer__desk {
+    padding-left: 30px;
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 303px) {
+  .footer__desk {
+    padding-left: 4px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

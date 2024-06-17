@@ -1,0 +1,15 @@
+.logo {
+  padding: 30px;
+}
+
+.logo__title {
+  margin: 0 0 40px 0;
+  text-align: center;
+  color: $color-logo;
+  font-size: 5.7rem;
+  font-weight: 200;
+  letter-spacing: 0.5rem;
+  @include media-mobale-small {
+    font-size: 4.0rem;
+  }
+}
