@@ -2,6 +2,14 @@
   padding: 30px;
 }
 
+.art__gallery_title {
+  margin: 0 0 70px 0;
+  text-align: center;
+  color: $color-categories;
+  font-size: 3.5rem;
+  letter-spacing: 0.2rem;
+}
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
