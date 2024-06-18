@@ -1,0 +1,32 @@
+.art__gallery {
+  padding: 30px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px 20px;
+}
+
+.gallery__item {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 300px;
+  cursor: pointer;
+}
+
+.gallery__title {
+  height: 30px;
+  margin-bottom: 25px;
+  text-align: center;
+  color: $color-logo;
+  font-size: 2.0rem;
+  letter-spacing: 0.2rem;
+}
+
+.gallery__img {
+  width: 100%;
+  height: 250px;
+  border-radius: 15px;
+}

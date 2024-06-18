@@ -14,3 +14,29 @@
 
   cursor: pointer;
 }
+
+//header Artist quiz
+
+.header__wrapper_artist {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 0 2%;
+}
+
+.header__artist {
+  margin: 0 0 0 0;
+  font-size: 2.5rem;
+  color: $color-logo;
+  font-weight: 200;
+  letter-spacing: 0.2rem;
+  transition: .3s all;
+  @include media-mobale-small {
+    font-size: 4.0rem;
+  }
+}
+
+.header__categories {
+  color: $color-categories;
+}
+
