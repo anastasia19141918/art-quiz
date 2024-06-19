@@ -52,6 +52,10 @@
   width: 250px;
   height: 300px;
   cursor: pointer;
+
+  animation: show .7s  ease-in-out;
+  animation-timing-function:linear;
+
   @include media-tablet-big {
     width: 195px;
     height: 206px;
@@ -107,3 +111,20 @@
     height: 100%;
   }
 }
+
+//animation start
+
+@keyframes show {
+  from {
+    opacity: 0;
+    box-shadow: -1px 0px 5px 9px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 0px 5px 9px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 0px 5px 9px rgba(0,0,0,0.75);
+  }
+  to {
+    opacity: 1;
+    
+  }
+}
+
+//animation end
