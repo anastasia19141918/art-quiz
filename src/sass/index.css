@@ -306,6 +306,8 @@ a {
   width: 250px;
   height: 300px;
   cursor: pointer;
+  animation: show 0.7s ease-in-out;
+  animation-timing-function: linear;
 }
 @media (max-width: 855px) {
   .gallery__item {
@@ -381,6 +383,18 @@ a {
 @media (max-width: 695px) {
   .gallery__img {
     height: 100%;
+  }
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+    box-shadow: -1px 0px 5px 9px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 0px 5px 9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 0px 5px 9px rgba(0, 0, 0, 0.75);
+  }
+  to {
+    opacity: 1;
   }
 }
 
