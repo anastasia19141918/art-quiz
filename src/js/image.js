@@ -1374,9 +1374,7 @@ const images = [
       imageNum: '228',
   },
   {
-      author: 'Клод Моне',
-      name: 'Мост Ватерлоо, туман',
-      year: '1903',
+      
       imageNum: '229',
   },
   {
