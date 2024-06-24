@@ -88,3 +88,24 @@
 @mixin media-mobale-small-question {
   @media (max-width: $media-mobale-small-question) { @content; }
 };
+
+//Painting Question
+@mixin media-tablet-question-painting {
+  @media (max-width: $media-tablet-question-painting) { @content; }
+};
+
+@mixin media-tablet-small-question-painting {
+  @media (max-width: $media-tablet-small-question-painting) { @content; }
+};
+
+@mixin media-mobale-big-question-painting {
+  @media (max-width: $media-mobale-big-question-painting) { @content; }
+};
+
+@mixin media-mobale-question-painting {
+  @media (max-width: $media-mobale-question-painting) { @content; }
+};
+
+@mixin media-mobale-small-question-painting {
+  @media (max-width: $media-mobale-small-question-painting) { @content; }
+};
