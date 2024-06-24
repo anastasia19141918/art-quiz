@@ -638,4 +638,76 @@ a {
   color: #000000;
 }
 
+.question__gallery_painting {
+  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 0.3fr);
+  justify-content: center;
+  gap: 30px 30px;
+}
+@media (max-width: 569px) {
+  .question__gallery_painting {
+    gap: 20px 10px;
+  }
+}
+@media (max-width: 304px) {
+  .question__gallery_painting {
+    gap: 10px 10px;
+  }
+}
+
+.question__paintings {
+  width: 400px;
+  height: 350px;
+  border-radius: 15px;
+  transition: 0.5s all;
+}
+@media (max-width: 870px) {
+  .question__paintings {
+    width: 300px;
+    height: 250px;
+  }
+}
+@media (max-width: 672px) {
+  .question__paintings {
+    width: 250px;
+    height: 250px;
+  }
+}
+@media (max-width: 569px) {
+  .question__paintings {
+    width: 200px;
+    height: 180px;
+  }
+}
+@media (max-width: 456px) {
+  .question__paintings {
+    width: 160px;
+    height: 160px;
+  }
+}
+@media (max-width: 361px) {
+  .question__paintings {
+    width: 140px;
+    height: 140px;
+  }
+}
+@media (max-width: 304px) {
+  .question__paintings {
+    width: 120px;
+    height: 120px;
+  }
+}
+@media (max-width: 258px) {
+  .question__paintings {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.question__paintings__active {
+  opacity: 0.3;
+  transition: 0.5s all;
+}
+
 /*# sourceMappingURL=index.css.map */
