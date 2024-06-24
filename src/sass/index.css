@@ -401,6 +401,18 @@ a {
   padding: 30px 0;
 }
 
+.category {
+  padding: 30px 0;
+}
+
+.category__link {
+  font-size: 2.5rem;
+  font-weight: 200;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: #e18b34;
+}
+
 .question__title {
   margin: 0 0 30px 0;
   text-align: center;
@@ -438,6 +450,7 @@ a {
 
 .question__answers {
   display: grid;
+  margin-bottom: 30px;
   grid-template-columns: repeat(2, 0.2fr);
   justify-content: center;
   gap: 50px 80px;
