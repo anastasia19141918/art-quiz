@@ -58,3 +58,33 @@
 @mixin media-small-mobale {
   @media (max-width: $media-small-mobale) { @content; }
 };
+
+//Question start
+@mixin media-tablet-question {
+  @media (max-width: $media-tablet-question) { @content; }
+};
+
+@mixin media-tablet-big-question {
+  @media (max-width: $media-tablet-big-question) { @content; }
+};
+
+@mixin media-tablet-small-question {
+  @media (max-width: $media-tablet-small-question) { @content; }
+};
+
+@mixin media-tablet-mobale-question {
+  @media (max-width: $media-tablet-mobale-question) { @content; }
+};
+
+
+@mixin media-tablet-mobale-big-question {
+  @media (max-width: $media-tablet-mobale-big-question) { @content; }
+};
+
+@mixin media-tablet-mobale-small-question {
+  @media (max-width: $media-tablet-mobale-small-question) { @content; }
+};
+
+@mixin media-mobale-small-question {
+  @media (max-width: $media-mobale-small-question) { @content; }
+};
