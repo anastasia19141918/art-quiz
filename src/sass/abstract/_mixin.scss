@@ -109,3 +109,24 @@
 @mixin media-mobale-small-question-painting {
   @media (max-width: $media-mobale-small-question-painting) { @content; }
 };
+
+//popap
+@mixin media-tablet-popap {
+  @media (max-width: $media-tablet-popap) { @content; }
+};
+
+@mixin media-mabale-popap {
+  @media (max-width: $media-mabale-popap) { @content; }
+};
+
+@mixin media-mabale-big-popap {
+  @media (max-width: $media-mabale-big-popap) { @content; }
+};
+
+@mixin media-mabale-small-popap {
+  @media (max-width: $media-mabale-small-popap) { @content; }
+};
+
+@mixin media-mabale-popap {
+  @media (max-width: $media-mabale-popap) { @content; }
+};
