@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import './normalize.css';
 .logo {
   padding: 30px;
@@ -304,7 +305,8 @@ a {
   display: flex;
   flex-direction: column;
   width: 250px;
-  height: 300px;
+  height: 250px;
+  border-radius: 15px;
   cursor: pointer;
   animation: show 0.7s ease-in-out;
   animation-timing-function: linear;
@@ -345,12 +347,93 @@ a {
   }
 }
 
+.gallery__item_picture_port {
+  background-image: url("../../src/img/categories/Портреты. Картины.jpg");
+  background-size: 250px 250px;
+}
+.gallery__item_picture_scenery {
+  background-image: url("../../src/img/categories/Пейзажи. Картины.jpg");
+  background-size: 250px 250px;
+}
+.gallery__item_picture_domestic {
+  background-image: url("../../src/img/categories/Бытовой жанр.Картины.jpg");
+  background-size: 250px 250px;
+}
+.gallery__item_picture_mythology {
+  background-image: url("../../src/img/categories/Мифологический сюжет.Картины.jpg");
+  background-size: 250px 250px;
+}
+.gallery__item_picture_renaissance {
+  background-image: url("../../src/img/categories/Возрождение.Картины.jpg");
+  background-size: 250px 250px;
+}
+.gallery__item_picture_russia {
+  background-image: url("../../src/img/categories/Русские художники.Картины.jpg");
+  background-size: 250px 250px;
+}
+.gallery__item_picture_era {
+  background-image: url("../../src/img/categories/Живопись_15-18В.Картины.jpg");
+  background-size: 250px 250px;
+}
+.gallery__item_picture_impressionism {
+  background-image: url("../../src/img/categories/Импрессионизм.Картины.jpg");
+  background-size: 250px 250px;
+}
+.gallery__item_picture_startXIX {
+  background-image: url("../../src/img/categories/1_пол_19В.Картины.jpg");
+  background-size: 250px 250px;
+}
+.gallery__item_picture_endtXIX {
+  background-image: url("../../src/img/categories/2_пол_19В.Картины.jpg");
+  background-size: 250px 250px;
+}
+.gallery__item_picture_starttXX {
+  background-image: url("../../src/img/categories/Начало_20В.Картины.jpg");
+  background-size: 250px 250px;
+}
+@media (max-width: 855px) {
+  .gallery__item_picture {
+    width: 195px;
+    height: 206px;
+  }
+}
+@media (max-width: 855px) {
+  .gallery__item_picture {
+    gap: 20px 0px;
+  }
+}
+@media (max-width: 695px) {
+  .gallery__item_picture {
+    width: 159px;
+    height: 200px;
+  }
+}
+@media (max-width: 471px) {
+  .gallery__item_picture {
+    width: 150px;
+    height: 180px;
+  }
+}
+@media (max-width: 395px) {
+  .gallery__item_picture {
+    width: 195px;
+    height: 206px;
+  }
+}
+@media (max-width: 301px) {
+  .gallery__item_picture {
+    width: 150px;
+    height: 180px;
+  }
+}
+
 .gallery__title {
   height: 30px;
   margin-bottom: 25px;
   text-align: center;
-  color: #fffbde;
+  color: #fffbf4;
   font-size: 2rem;
+  font-weight: 600;
   letter-spacing: 0.2rem;
 }
 @media (max-width: 1115px) {
@@ -367,22 +450,6 @@ a {
 @media (max-width: 695px) {
   .gallery__title {
     font-size: 1.5rem;
-  }
-}
-
-.gallery__img {
-  width: 100%;
-  height: 250px;
-  border-radius: 15px;
-}
-@media (max-width: 1115px) {
-  .gallery__img {
-    height: 190px;
-  }
-}
-@media (max-width: 695px) {
-  .gallery__img {
-    height: 100%;
   }
 }
 
