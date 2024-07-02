@@ -29,16 +29,16 @@ let imagesrussianArtists =  [
   },
   {
     id: 5,
-    author: 'Виктор Васнецов',
-    name: 'Три царевны подземного царства',
-    year: '1884',
+    author: 'Алексей Антропов',
+    name: 'Портрет Петра III',
+    year: '1762',
     image: './src/img/russianArtists/5.jpg',
   },
   {
     id: 6,
-    author: 'Василий Перов',
-    name: 'Сельский крестный ход на Пасхе',
-    year: '1861',
+    author: 'Федор Рокотов',
+    name: 'Коронационный портрет Екатерины II',
+    year: '1763',
     image: './src/img/russianArtists/6.jpg',
   },
   {
@@ -50,9 +50,9 @@ let imagesrussianArtists =  [
   },
   {
     id: 8,
-    author: 'Марк Шагал',
-    name: 'Я и деревня',
-    year: '1911',
+    author: 'Орест Кипренский',
+    name: 'Портрет А. С. Пушкина',
+    year: '1827',
     image: './src/img/russianArtists/8.jpg',
   },
   {
@@ -148,9 +148,9 @@ let imagesrussianArtists =  [
   },
   {
     id: 22,
-    author: 'Иван Айвазовский',
-    name: 'Лунная дорожка',
-    year: '1886',
+    author: '',
+    name: '',
+    year: '',
     image: './src/img/russianArtists/22.jpg',
   },
   {

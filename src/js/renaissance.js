@@ -1,16 +1,16 @@
 let imagesRenaissance = [
   {
     id: 1,
-    author: 'Леонардо да Винчи',
-    name: 'Святая Анна с Мадонной',
-    year: '1510',
+    author: 'Пьетро Перуджино',
+    name: 'Пьета',
+    year: '1495',
     image: './src/img/renaissance/1.jpg',
   },
   {
     id: 2,
-    author: 'Рафаэль',
-    name: 'Святой Георгий и дракон',
-    year: '1506',
+    author: 'Джентиле Беллини',
+    name: 'Портрет дожа Джованни Мочениго',
+    year: '1479',
     image: './src/img/renaissance/2.jpg',
   },
   {
@@ -43,9 +43,9 @@ let imagesRenaissance = [
   },
   {
     id: 7,
-    author: 'Питер Брейгель',
-    name: 'Избиение младенцев',
-    year: '1567',
+    author: 'Ганс Гольбейн Младший',
+    name: 'Послы',
+    year: '1533',
     image: './src/img/renaissance/7.jpg',
   },
   {
@@ -57,23 +57,23 @@ let imagesRenaissance = [
   },
   {
     id: 9,
-    author: 'Питер Брейгель',
-    name: 'Фламандские пословицы',
-    year: '1559',
+    author: 'Рогир Ван дер Вейден',
+    name: 'Снятие с креста',
+    year: '1440',
     image: './src/img/renaissance/9.jpg',
   },
   {
     id: 10,
-    author: 'Рафаэль',
-    name: 'Мадонна в кресле',
-    year: '1514',
+    author: 'Исаак Оливер',
+    name: 'Елизавета I и три богини (Юнона, Минерва и Венера)',
+    year: '1558',
     image: './src/img/renaissance/9.jpg',
   },
   {
     id: 11,
-    author: 'Леонардо да Винчи',
-    name: 'Мадонна Литта',
-    year: '1491',
+    author: 'Жан Фуке',
+    name: 'Дева Мария',
+    year: '1450',
     image: './src/img/renaissance/11.jpg',
   },
   {
@@ -85,9 +85,9 @@ let imagesRenaissance = [
   },
   {
     id: 13,
-    author: 'Альбрехт Дюрер',
-    name: 'Праздник венков из роз',
-    year: '1506',
+    author: 'Вольф Губер',
+    name: 'Оплакивание Христа',
+    year: '1524',
     image: './src/img/renaissance/13.jpg',
   },
   {
@@ -106,9 +106,9 @@ let imagesRenaissance = [
   },
   {
     id: 16,
-    author: 'Рафаэль',
-    name: 'Мадонна с розой',
-    year: '1518',
+    author: 'Иероним Босх',
+    name: 'Несение креста.',
+    year: '1500',
     image: './src/img/renaissance/16.jpg',
   },
   {
@@ -120,9 +120,9 @@ let imagesRenaissance = [
   },
   {
     id: 18,
-    author: 'Сандро Боттичелли',
-    name: 'Весна',
-    year: '1482',
+    author: 'Ян Провост',
+    name: 'Скупой и Смерть',
+    year: '1521',
     image: './src/img/renaissance/18.jpg',
   },
   {
@@ -134,9 +134,9 @@ let imagesRenaissance = [
   },
   {
     id: 20,
-    author: 'Питер Брейгель',
-    name: 'Притча о слепых',
-    year: '1568',
+    author: 'Маттиас Грюневальд',
+    name: 'Поругание Христа',
+    year: '1503',
     image: './src/img/renaissance/20.jpg',
   },
   {
@@ -148,9 +148,9 @@ let imagesRenaissance = [
   },
   {
     id: 22,
-    author: 'Ян ван Эйк',
-    name: 'Гентский Алтарь',
-    year: '1432',
+    author: 'Франсуа Клуэ',
+    name: 'Туалет дамы',
+    year: '1571',
     image: './src/img/renaissance/22.jpg',
   },
   {
@@ -162,9 +162,9 @@ let imagesRenaissance = [
   },
   {
     id: 24,
-    author: 'Леонардо да Винчи',
-    name: 'Мадонна в скалах',
-    year: '1486',
+    author: 'Лукас Кранах Старший',
+    name: 'Венера и Амур',
+    year: '1509',
     image: './src/img/renaissance/24.jpg',
   },
   {
@@ -176,16 +176,16 @@ let imagesRenaissance = [
   },
   {
     id: 26,
-    author: 'Леонардо да Винчи',
-    name: 'Благовещение',
-    year: '1475',
+    author: 'Ханс Мемлинг',
+    name: 'Mадонна с Младенцем и ангелом',
+    year: '1480',
     image: './src/img/renaissance/26.jpg',
   },
   {
     id: 27,
-    author: 'Тициан',
-    name: 'Кающаяся Марина Магдалина',
-    year: '1565',
+    author: 'Якопо Понтормо',
+    name: 'Портрет алебардиста',
+    year: '1530',
     image: './src/img/renaissance/27.jpg',
   },
   {
@@ -197,16 +197,16 @@ let imagesRenaissance = [
   },
   {
     id: 29,
-    author: 'Веронезе',
-    name: 'Брак в Кане Галилейской',
-    year: '1562',
+    author: 'Аньоло Бронзино',
+    name: 'Венера, купидон и сатир',
+    year: '1555',
     image: './src/img/renaissance/29.jpg',
   },
   {
     id: 30,
-    author: 'Тициан',
-    name: 'Вакханалия',
-    year: '1526',
+    author: 'Андреа Мантенья',
+    name: 'Святой Себастьян',
+    year: '1480',
     image: './src/img/renaissance/30.jpg',
   },
 ];

@@ -75,6 +75,7 @@ a {
 }
 
 .header__artist {
+  z-index: 7;
   margin: 0 0 0 0;
   font-size: 2.5rem;
   color: #fffbde;
@@ -240,6 +241,7 @@ a {
 }
 
 .art__gallery_title {
+  opacity: 1;
   margin: 0 0 70px 0;
   text-align: center;
   color: #e18b34;
@@ -260,6 +262,12 @@ a {
   .art__gallery_title {
     font-size: 2rem;
   }
+}
+
+.art__gallery_title_active {
+  opacity: 0;
+  transition: 0.5s all;
+  pointer-events: none;
 }
 
 .gallery {
@@ -299,6 +307,16 @@ a {
     grid-template-columns: repeat(1, 1fr);
     gap: 70px 0px;
   }
+}
+
+.gallery_picture {
+  opacity: 1;
+}
+
+.gallery__active {
+  opacity: 0;
+  transition: 0.5s all;
+  pointer-events: none;
 }
 
 .gallery__item {
@@ -361,6 +379,10 @@ a {
 }
 .gallery__item_picture_mythology {
   background-image: url("../../src/img/categories/Мифологический сюжет.Картины.jpg");
+  background-size: 250px 250px;
+}
+.gallery__item_picture_historical {
+  background-image: url("../../src/img/categories/Исторический жанр.Картины.jpg");
   background-size: 250px 250px;
 }
 .gallery__item_picture_renaissance {
@@ -468,6 +490,27 @@ a {
   padding: 30px 0;
 }
 
+.question_picture {
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s all;
+  pointer-events: none;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.question_picture__active {
+  opacity: 1;
+  transition: 0.5s all;
+  pointer-events: all;
+}
+
+.question_picture__wrapper {
+  padding-top: 3%;
+}
+
 @media (max-width: 361px) {
   .header__wrapper_question {
     flex-direction: column;
@@ -538,7 +581,7 @@ a {
 
 .question__img {
   width: 700px;
-  height: 580px;
+  height: 700px;
   border-radius: 10px;
 }
 @media (max-width: 749px) {
@@ -654,6 +697,7 @@ a {
   letter-spacing: 0.2rem;
   border: 2px solid #fffbde;
   border-radius: 30px;
+  cursor: pointer;
 }
 @media (max-width: 749px) {
   .question__answer {

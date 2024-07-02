@@ -3,6 +3,7 @@
 }
 
 .art__gallery_title {
+  opacity: 1;
   margin: 0 0 70px 0;
   text-align: center;
   color: $color-categories;
@@ -17,6 +18,12 @@
   @include media-small-mobale {
     font-size: 2.0rem;
   }
+}
+
+.art__gallery_title_active {
+  opacity: 0;
+  transition: .5s all;
+  pointer-events: none;
 }
 
 .gallery {
@@ -44,6 +51,16 @@
     grid-template-columns: repeat(1, 1fr);
     gap: 70px 0px;
   }
+}
+
+.gallery_picture {
+  opacity: 1;
+}
+
+.gallery__active {
+  opacity: 0;
+  transition: .5s all;
+  pointer-events: none;
 }
 
 .gallery__item {
@@ -100,6 +117,11 @@
 
   &_mythology {
     background-image: url('../../src/img/categories/Мифологический\ сюжет.Картины.jpg');
+    background-size: 250px 250px;
+  }
+
+  &_historical {
+    background-image: url('../../src/img/categories/Исторический\ жанр.Картины.jpg');
     background-size: 250px 250px;
   }
 
