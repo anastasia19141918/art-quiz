@@ -1,9 +1,9 @@
 let historical = [
   {
     id: 1,
-    author: 'Илья Репин',
-    name: 'Иван Грозный и сын его Иван',
-    year: '1885',
+    author: 'Фредерик Бриджмен',
+    name: 'Развлечение ассирийского царя',
+    year: '1878',
     image: './src/img/historical/1.jpg',
   },
   {
@@ -22,9 +22,9 @@ let historical = [
   },
   {
     id: 4,
-    author: 'Василий Суриков',
-    name: 'Переход Суворова через Альпы',
-    year: '1899',
+    author: 'Пабло Пикассо',
+    name: 'Герника',
+    year: '1937',
     image: './src/img/historical/4.jpg',
   },
   {
@@ -57,9 +57,9 @@ let historical = [
   },
   {
     id: 9,
-    author: 'Константин Маковский',
-    name: 'Боярский свадебный пир',
-    year: '1883',
+    author: 'Леонардо да Винчи',
+    name: 'Тайная вечеря',
+    year: '1498',
     image: './src/img/historical/8.jpg',
   },
   {
@@ -134,16 +134,16 @@ let historical = [
   },
   {
     id: 20,
-    author: 'Илья Репин',
-    name: 'Царевна Софья',
-    year: '1879',
+    author: 'Иван Айвазовский',
+    name: 'Бриг «Меркурий», атакованный двумя турецкими кораблями',
+    year: '1892',
     image: './src/img/historical/20.jpg',
   },
   {
     id: 21,
-    author: 'Жак Луи Давид',
-    name: 'Клятва в зале для игры в мяч',
-    year: '1794',
+    author: 'Уильям Тёрнер',
+    name: 'Трафальгарская битва',
+    year: '1822',
     image: './src/img/historical/21.jpg',
   },
   {
@@ -155,30 +155,30 @@ let historical = [
   },
   {
     id: 23,
-    author: 'Жак Луи Давид',
-    name: 'Бонапарт на перевале Сен-Бернар',
-    year: '1801',
+    author: 'Андрей Петрович Рябушкин',
+    name: 'Иоанн Грозный с приближёнными',
+    year: '1903',
     image: './src/img/historical/23.jpg',
   },
   {
     id: 24,
-    author: 'Франсиско Гойя',
-    name: '3 мая 1808 года',
-    year: '1814',
+    author: 'Валентин Александрович Серов',
+    name: 'Коронация Николая II',
+    year: '1896',
     image: './src/img/historical/24.jpg',
   },
   {
     id: 25,
-    author: 'Вячеслав Шварц',
-    name: 'Иоанн Грозный у тела убитого им сына',
-    year: '1864',
+    author: 'Пьеро делла Франческа',
+    name: 'Молодой Геркулес',
+    year: '1465',
     image: './src/img/historical/25.jpg',
   },
   {
     id: 26,
-    author: 'Эжен Делакруа',
-    name: 'Смерть Сарданапала',
-    year: '1827',
+    author: 'Николя Пуссен',
+    name: 'Смерть Германика',
+    year: '1627',
     image: './src/img/historical/26.jpg',
   },
   {
@@ -197,9 +197,9 @@ let historical = [
   },
   {
     id: 29,
-    author: 'Василий Суриков',
-    name: 'Степан Разин',
-    year: '1906',
+    author: 'Шарль Лебрён',
+    name: 'Вход Александра в Вавилон',
+    year: '1665',
     image: './src/img/historical/29.jpg',
   },
   {

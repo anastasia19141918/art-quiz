@@ -8,9 +8,9 @@ let imagesPortraints = [
   },
   {
     id: 2,
-    author: 'Леонардо да Винчи',
-    name: 'Дама с горностаем',
-    year: '1490',
+    author: 'Петрус Кристус',
+    name: 'Портрет девушки',
+    year: '1470',
     image: './src/img/portraints/2.jpg',
   },
   {
@@ -148,9 +148,9 @@ let imagesPortraints = [
   },
   {
     id: 22,
-    author: 'Зинаида Серебрякова',
-    name: 'Портрет О. Лансере',
-    year: '1910',
+    author: 'Рогир ван дер Вейден',
+    name: 'Портрет дамы',
+    year: '1460',
     image: './src/img/portraints/22.jpg',
   },
   {
@@ -176,9 +176,9 @@ let imagesPortraints = [
   },
   {
     id: 26,
-    author: 'Карл Брюллов',
-    name: 'Всадница',
-    year: '1832',
+    author: 'Альбрехт Дюрер',
+    name: 'Автопортрет',
+    year: '1500',
     image: './src/img/portraints/26.jpg',
   },
   {
@@ -204,9 +204,9 @@ let imagesPortraints = [
   },
   {
     id: 30,
-    author: 'Карл Брюллов',
-    name: 'Итальянский полдень',
-    year: '1827',
+    author: 'Джон Сингер Сарджент',
+    name: 'Портрет мадам Икс',
+    year: '1884',
     image: './src/img/portraints/30.jpg',
   },
 ];

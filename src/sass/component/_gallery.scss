@@ -3,6 +3,7 @@
 }
 
 .art__gallery_title {
+  opacity: 1;
   margin: 0 0 70px 0;
   text-align: center;
   color: $color-categories;
@@ -17,6 +18,12 @@
   @include media-small-mobale {
     font-size: 2.0rem;
   }
+}
+
+.art__gallery_title_active {
+  opacity: 0;
+  transition: .5s all;
+  pointer-events: none;
 }
 
 .gallery {
@@ -46,17 +53,28 @@
   }
 }
 
+.gallery_picture {
+  opacity: 1;
+}
+
+.gallery__active {
+  opacity: 0;
+  transition: .5s all;
+  pointer-events: none;
+}
+
 .gallery__item {
   display: flex;
   flex-direction: column;
   width: 250px;
-  height: 300px;
+  height: 250px;
+  border-radius: 15px;
   cursor: pointer;
 
   animation: show .7s  ease-in-out;
   animation-timing-function:linear;
 
-  @include media-tablet-big {
+ @include media-tablet-big {
     width: 195px;
     height: 206px;
   }
@@ -81,12 +99,100 @@
   }
 }
 
+.gallery__item_picture {
+  &_port {
+    background-image: url('../../src/img/categories/Портреты.\ Картины.jpg');
+    background-size: 250px 250px;
+  }
+
+  &_scenery {
+    background-image: url('../../src/img/categories/Пейзажи.\ Картины.jpg');
+    background-size: 250px 250px;
+  }
+
+  &_domestic {
+    background-image: url('../../src/img/categories/Бытовой\ жанр.Картины.jpg');
+    background-size: 250px 250px;
+  }
+
+  &_mythology {
+    background-image: url('../../src/img/categories/Мифологический\ сюжет.Картины.jpg');
+    background-size: 250px 250px;
+  }
+
+  &_historical {
+    background-image: url('../../src/img/categories/Исторический\ жанр.Картины.jpg');
+    background-size: 250px 250px;
+  }
+
+  &_renaissance {
+    background-image: url('../../src/img/categories/Возрождение.Картины.jpg');
+    background-size: 250px 250px;
+  }
+
+  &_russia {
+    background-image: url('../../src/img/categories/Русские\ художники.Картины.jpg');
+    background-size: 250px 250px;
+  }
+
+  &_era {
+    background-image: url('../../src/img/categories/Живопись_15-18В.Картины.jpg');
+    background-size: 250px 250px;
+  }
+
+  &_impressionism {
+    background-image: url('../../src/img/categories/Импрессионизм.Картины.jpg');
+    background-size: 250px 250px;
+  }
+
+  &_startXIX {
+    background-image: url('../../src/img/categories/1_пол_19В.Картины.jpg');
+    background-size: 250px 250px;
+  }
+
+  &_endtXIX {
+    background-image: url('../../src/img/categories/2_пол_19В.Картины.jpg');
+    background-size: 250px 250px;
+  }
+
+  &_starttXX {
+    background-image: url('../../src/img/categories/Начало_20В.Картины.jpg');
+    background-size: 250px 250px;
+  }
+
+  @include media-tablet-big {
+    width: 195px;
+    height: 206px;
+  }
+  @include media-tablet-big {
+    gap: 20px 0px;
+  }
+  @include media-tablet {
+    width: 159px;
+    height: 200px;
+  }
+  @include media-mobale-small {
+    width: 150px;
+    height: 180px;
+  }
+  @include media-mobale {
+    width: 195px;
+    height: 206px;
+  }
+  @include media-small-mobale {
+    width: 150px;
+    height: 180px;
+  }
+  
+}
+
 .gallery__title {
   height: 30px;
   margin-bottom: 25px;
   text-align: center;
-  color: $color-logo;
+  color: $color-link;
   font-size: 2.0rem;
+  font-weight: 600;
   letter-spacing: 0.2rem;
   @include media-desktop-artist {
     font-size: 1.8rem;
@@ -100,17 +206,7 @@
   }
 }
 
-.gallery__img {
-  width: 100%;
-  height: 250px;
-  border-radius: 15px;
-  @include media-desktop-artist {
-    height: 190px;
-  }
-  @include media-tablet {
-    height: 100%;
-  }
-}
+
 
 //animation start
 
