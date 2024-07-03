@@ -58,7 +58,7 @@
 }
 
 .gallery__active {
-  opacity: 0;
+  display: none;
   transition: .5s all;
   pointer-events: none;
 }

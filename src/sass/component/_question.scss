@@ -21,6 +21,15 @@
 
 .question_picture__wrapper {
   padding: 3% 0 3% 0;
+  @include media-desktop-question {
+    padding: 8% 0 3% 0;
+  }
+  @include media-mobale-painting {
+    padding: 15% 0 3% 0;
+  }
+  @include media-mobale-small-question-painting {
+    padding: 45% 0 3% 0;
+  }
 }
 
 .header__wrapper_question {
@@ -80,8 +89,8 @@
 }
 
 .question__img {
-  width: 700px;
-  height: 700px;
+  width: 300px;
+  height: 330px;
   border-radius: 10px;
   @include media-tablet-question {
     width: 600px;
