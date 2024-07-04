@@ -6,6 +6,14 @@ let questionIndex = 0;
 
 const answer = document.getElementById('question_picture');
 const gallery = document.getElementById('gallery_picture');
+const galleryImg = document.getElementById('question__gallery'); 
+
+const answerTrue = document.getElementById('question__answer_true');
+const answers = document.querySelectorAll('.answer');
+
+const questionAnswer =  document.querySelectorAll('.question__answer');
+const questionAnswers =  document.getElementById('question__answers');
+let random = Array.from(questionAnswer);
 
 gallery.addEventListener('click', galleryPicture);
 
@@ -19,7 +27,7 @@ function picturePort(e) {
   if(e.target.innerText === 'Портреты') {
     galleryDelit();
     answer.classList.add('question_picture__active');
-    creatPicture();
+    creatPicture(imagesPortraints);
   }
 }
 
@@ -32,30 +40,39 @@ function galleryDelit () {
 }
 
 function creatPicture(e) {
-  
-  shuffleImg(imagesPortraints);
-  const gallery = document.getElementById('question__gallery');
-  const answer = document.getElementById('question__answers');
-  const answers = document.querySelectorAll('.question__answer');
-
+  shuffleImg(e);
   const img = document.createElement('img');
   img.classList.add('question__img');
-  gallery.appendChild(img);
+  galleryImg.appendChild(img);
 
-  const div =  document.createElement('div');
-  div.classList.add('question__answer');
-  answer.appendChild(div);
-
-  imagesPortraints.forEach(function(el) {
+  e.forEach(function(el, item) {
     img.src = el.image;
 
-    div.innerText = el.author;
+    answerTrue.innerHTML = el.author;
 });
 
 answers.forEach(function(el,i) {
-  el.innerHTML = imagesPortraints[i].author;
-})
+  el.innerHTML = e[i].author;
+});
+
+randomItem();
 };
+
+function randomItem () {
+  let arrowNumber = [0, 1, 2, 3, 4];
+
+  const randomIndex = Math.floor(Math.random() * (arrowNumber.length - 1));
+  const result = arrowNumber[randomIndex];
+  console.log(result);
+
+  questionAnswers.insertBefore(questionAnswer[result], null);
+  questionAnswers.insertBefore(questionAnswer[0], questionAnswer[result]);
+}
+
+
+
+
+
 
 
 
