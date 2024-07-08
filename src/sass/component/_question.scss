@@ -151,6 +151,10 @@
   }
 }
 
+.question__pag__active {
+  background-color: $color-categories;
+}
+
 .question__answers {
   display: grid;
   margin-bottom: 30px;
@@ -211,7 +215,3 @@
   }
 }
 
-.question__answer__active {
-  background-color: $color-answer;
-  color: $color-body ;
-}
