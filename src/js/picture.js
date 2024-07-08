@@ -22,10 +22,14 @@ const popArtDesk = document.getElementById('pop-art_desk');
 const popArtCheck = document.getElementById('pop-art__check');
 const popButton = document.getElementById('pop-art__button');
 const popArtButn =  document.querySelector('.pop-art__butn');
+const questionPag = document.querySelectorAll('.question__pag');
+
 
 gallery.addEventListener('click', galleryPicture);
 questionAnswers.addEventListener('click', btnAnswer);
 popButton.addEventListener('click', buttonNext);
+
+
 
 function galleryPicture(e) {
   if(e.target.classList.contains('gallery__item_picture')) {
@@ -107,9 +111,10 @@ function popAnswer() {
 
 function buttonNext(e) {
   popActive.classList.remove('pop-art__active');
-  questionIndex ++;
   
- galleryImg.innerHTML = '';
+  
+  
+  galleryImg.innerHTML = '';
   questionAnswer.forEach(function(el){
     el.innerHTML = '';
   });
@@ -117,10 +122,26 @@ function buttonNext(e) {
   popArtHeader.innerHTML = '';
   popArtDesk.innerHTML = '';
 
+  if (questionIndex !== questionPag.length-1) {
+    console.log('не последний')
+  };
+
+  if(questionIndex === questionPag.length-1) {
+    console.log('последний')
+  }
+  
   if(popArtButn.classList.contains('btnPort')) {
     creatPicture(imagesPortraints[0]);
-    console.log('port');
-  }
+  };
+  dots();
+}
+
+function dots() {
+  if (questionIndex !== questionPag.length-1) {
+    questionIndex ++;
+    let dotsActive = questionPag[questionIndex];
+    dotsActive.classList.add('question__pag__active');
+  } 
 }
 
 function randomItem () {
@@ -132,6 +153,8 @@ function randomItem () {
   questionAnswers.insertBefore(questionAnswer[result], null);
   questionAnswers.insertBefore(questionAnswer[0], questionAnswer[result]);
 }
+
+
 
 
 
