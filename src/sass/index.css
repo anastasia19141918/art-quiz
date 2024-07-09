@@ -1039,21 +1039,85 @@ a {
 .result__body {
   top: 15%;
   left: 30%;
+  width: 450px;
   position: absolute;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px 0px;
-  width: 450px;
   padding: 20px;
   background-color: #fffbde;
   border-radius: 10px;
+}
+@media (max-width: 870px) {
+  .result__body {
+    top: 15%;
+    left: 20%;
+  }
+}
+@media (max-width: 695px) {
+  .result__body {
+    width: 380px;
+    top: 16%;
+    left: 18%;
+  }
+}
+@media (max-width: 569px) {
+  .result__body {
+    width: 330px;
+    top: 16%;
+    left: 12%;
+  }
+}
+@media (max-width: 471px) {
+  .result__body {
+    width: 300px;
+    top: 16%;
+    left: 10%;
+  }
+}
+@media (max-width: 413px) {
+  .result__body {
+    width: 280px;
+    top: 16%;
+    left: 10%;
+  }
+}
+@media (max-width: 395px) {
+  .result__body {
+    width: 240px;
+  }
+}
+@media (max-width: 361px) {
+  .result__body {
+    width: 210px;
+  }
+}
+@media (max-width: 304px) {
+  .result__body {
+    width: 180px;
+    left: 8%;
+    top: 20%;
+  }
+}
+@media (max-width: 266px) {
+  .result__body {
+    width: 150px;
+    left: 8%;
+    top: 22%;
+  }
 }
 
 .result__img {
   width: 200px;
   height: 250px;
   border-radius: 20px;
+}
+@media (max-width: 304px) {
+  .result__img {
+    width: 150px;
+    height: 200px;
+  }
 }
 
 .result__title, .result__score {
@@ -1066,6 +1130,17 @@ a {
   flex-direction: row;
   gap: 0 20px;
 }
+@media (max-width: 569px) {
+  .result__btns {
+    gap: 0 10px;
+  }
+}
+@media (max-width: 395px) {
+  .result__btns {
+    flex-direction: column;
+    gap: 10px 0;
+  }
+}
 
 .result__btn {
   width: 110px;
@@ -1077,6 +1152,30 @@ a {
   background-color: #FFBCA2;
   border-radius: 10px;
   cursor: pointer;
+}
+@media (max-width: 569px) {
+  .result__btn {
+    width: 90px;
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 413px) {
+  .result__btn {
+    width: 75px;
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 395px) {
+  .result__btn {
+    padding: 5px 1px;
+    width: 220px;
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 304px) {
+  .result__btn {
+    width: 150px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
