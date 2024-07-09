@@ -93,24 +93,13 @@
 }
 
 .pop-art__check {
-  width: 60px;
-  height: 60px;
-  margin: auto;
-  background-size: 60px 60px;
-  @include media-tablet-popap {
-    width: 30px;
-    height: 30px;
-    background-size: 30px 30px;
-  }
+  color: $color-answer-false;
+  font-size: 2.0rem;
+  font-weight: 600;
+  text-align: center;
 }
 
-.pop-art__check_true {
-  background-image: url('/src/img/pop/right.jpg');
-}
 
-.pop-art__check_false {
-  background-image: url('/src/img/pop/not_true.jpg');
-}
 
 .pop-art_desk {
   display: flex;

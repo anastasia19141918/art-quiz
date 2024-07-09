@@ -93,12 +93,12 @@ randomItem();
 
 function btnAnswer (e) {
   if(e.target.classList.contains('question__answer_true')) {
-    popArtCheck.classList.add('pop-art__check_true');
+    popArtCheck.innerText = 'Верно';
     popAnswer();
     score ++; 
   }
   else {
-    popArtCheck.classList.add('pop-art__check_false');
+    popArtCheck.innerText = ' Не верно';
     popAnswer();
   }
 }
@@ -111,8 +111,6 @@ function popAnswer() {
 
 function buttonNext(e) {
   popActive.classList.remove('pop-art__active');
-  
-  
   
   galleryImg.innerHTML = '';
   questionAnswer.forEach(function(el){
@@ -127,7 +125,7 @@ function buttonNext(e) {
   };
 
   if(questionIndex === questionPag.length-1) {
-    console.log('последний')
+    console.log(score ++)
   }
   
   if(popArtButn.classList.contains('btnPort')) {
