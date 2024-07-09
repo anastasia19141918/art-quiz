@@ -1,4 +1,5 @@
 .result {
+  display: none;
   position: fixed;
   transition: .5s all;
   width: 100%;
@@ -6,16 +7,13 @@
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.7);
-
-  opacity: 0;
-  
-  pointer-events: none;
 }
 
 .result__active {
-  opacity: 1;
-  transition: .5s all;
-  pointer-events: all;
+  display: block;
+  //opacity: 1;
+  //transition: .5s all;
+  //pointer-events: all;
 }
 
 .result__body {

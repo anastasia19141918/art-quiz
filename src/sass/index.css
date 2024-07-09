@@ -237,11 +237,11 @@ a {
 }
 
 .art__gallery {
+  display: block;
   padding: 30px;
 }
 
 .art__gallery_title {
-  opacity: 1;
   margin: 0 0 70px 0;
   text-align: center;
   color: #e18b34;
@@ -265,9 +265,7 @@ a {
 }
 
 .art__gallery_title_active {
-  opacity: 0;
-  transition: 0.5s all;
-  pointer-events: none;
+  display: none;
 }
 
 .gallery {
@@ -307,10 +305,6 @@ a {
     grid-template-columns: repeat(1, 1fr);
     gap: 70px 0px;
   }
-}
-
-.gallery_picture {
-  opacity: 1;
 }
 
 .gallery__active {
@@ -836,10 +830,9 @@ a {
 }
 
 .pop-art {
+  display: none;
   position: fixed;
-  opacity: 0;
   transition: 0.5s all;
-  pointer-events: none;
   width: 100%;
   height: 100vh;
   top: 0;
@@ -848,9 +841,7 @@ a {
 }
 
 .pop-art__active {
-  opacity: 1;
-  transition: 0.5s all;
-  pointer-events: all;
+  display: block;
 }
 
 .pop-art__body {
@@ -1027,6 +1018,7 @@ a {
   }
 }
 .result {
+  display: none;
   position: fixed;
   transition: 0.5s all;
   width: 100%;
@@ -1034,14 +1026,10 @@ a {
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.7);
-  opacity: 0;
-  pointer-events: none;
 }
 
 .result__active {
-  opacity: 1;
-  transition: 0.5s all;
-  pointer-events: all;
+  display: block;
 }
 
 .result__body {
