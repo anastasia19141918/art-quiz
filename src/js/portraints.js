@@ -708,9 +708,9 @@ let imagesPortraints = [
     },
     {
       id: 11,
-      author: '',
-      name: '',
-      year: '',
+      author: 'Уинслоу Хомер',
+      name: 'Попутный ветер',
+      year: '1876',
       image: './src/img/art2-19/11.jpg',
     },
     {
@@ -1859,8 +1859,8 @@ let imagesPortraints = [
     },
     {
       id: 24,
-      author: 'Геркулес и Омфала',
-      name: 'Доссо Досси',
+      author: 'Доссо Досси',
+      name: 'Геркулес и Омфала',
       year: '1535',
       image: './src/img/mythology/24.jpg',
     },
@@ -2481,9 +2481,9 @@ let imagesPortraints = [
     },
     {
       id: 22,
-      author: '',
-      name: '',
-      year: '',
+      author: 'Николай Ге',
+      name: 'Тайная вечеря',
+      year: '1863',
       image: './src/img/russianArtists/22.jpg',
     },
     {
