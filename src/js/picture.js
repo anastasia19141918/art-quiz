@@ -4,6 +4,7 @@ import shuffleImg from './createPucture.js';
 
 let questionIndex = 0; //вопрос
 let score = 0;//счёт
+let next = 0;
 
 const gallery = document.getElementById('gallery_picture');
 const artGallery = document.getElementById('art__gallery');
@@ -24,12 +25,13 @@ const popButton = document.getElementById('pop-art__button');
 const popArtButn =  document.querySelector('.pop-art__butn');
 const questionPag = document.querySelectorAll('.question__pag');
 
+const result =  document.getElementById('result');
+const resultNumber = document.getElementById('result__number');
+const resultNext =  document.getElementById('result__next');
 
 gallery.addEventListener('click', galleryPicture);
 questionAnswers.addEventListener('click', btnAnswer);
 popButton.addEventListener('click', buttonNext);
-
-
 
 function galleryPicture(e) {
   if(e.target.classList.contains('gallery__item_picture')) {
@@ -108,7 +110,6 @@ function popAnswer() {
 }
 
 
-
 function buttonNext(e) {
   popActive.classList.remove('pop-art__active');
   
@@ -121,18 +122,18 @@ function buttonNext(e) {
   popArtDesk.innerHTML = '';
 
   if (questionIndex !== questionPag.length-1) {
-    console.log('не последний')
+
+    if(popArtButn.classList.contains('btnPort')) {
+      creatPicture(imagesPortraints[0]);
+    };
+
   };
 
   if(questionIndex === questionPag.length-1) {
-    console.log(score ++)
+    showResult();
   }
-  
-  if(popArtButn.classList.contains('btnPort')) {
-    creatPicture(imagesPortraints[0]);
-  };
   dots();
-}
+};
 
 function dots() {
   if (questionIndex !== questionPag.length-1) {
@@ -140,7 +141,12 @@ function dots() {
     let dotsActive = questionPag[questionIndex];
     dotsActive.classList.add('question__pag__active');
   } 
-}
+};
+
+function showResult() {
+  result.classList.add('result__active');
+  resultNumber.innerText = score;
+};
 
 function randomItem () {
   let arrowNumber = [0, 1, 2, 3, 4];

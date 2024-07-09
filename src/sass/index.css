@@ -1034,6 +1034,14 @@ a {
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.result__active {
+  opacity: 1;
+  transition: 0.5s all;
+  pointer-events: all;
 }
 
 .result__body {
