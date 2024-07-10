@@ -309,6 +309,8 @@ function randomItem () {
  
   questionAnswers.insertBefore(questionAnswer[result], null);
   questionAnswers.insertBefore(questionAnswer[2], questionAnswer[result]);
+  questionAnswers.insertBefore(questionAnswer[0], questionAnswer[3]);
+  questionAnswers.insertBefore(questionAnswer[1], questionAnswer[result]);
 }
 
 

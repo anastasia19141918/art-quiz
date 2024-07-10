@@ -885,8 +885,8 @@ let imagesPortraints = [
     },
     {
       id: 6,
-      author: 'Весёлое трио',
-      name: 'Юдит Лейстер',
+      author: 'Юдит Лейстер',
+      name: 'Весёлое трио',
       year: '1631',
       image: './src/img/domestic/6.jpg',
     },
@@ -1223,7 +1223,7 @@ let imagesPortraints = [
     },
     {
       id: 24,
-      author: 'Валентин Александрович Серов',
+      author: 'Валентин Серов',
       name: 'Коронация Николая II',
       year: '1896',
       image: './src/img/historical/24.jpg',
@@ -1323,7 +1323,7 @@ let imagesPortraints = [
     },
     {
       id: 8,
-      author: 'Валентин Александрович Серов',
+      author: 'Валентин Серов',
       name: 'Открытое окно. Сирень',
       year: '1886',
       image: './src/img/impressionism/8.jpg',
@@ -2057,17 +2057,17 @@ let imagesPortraints = [
     },
     {
       id: 22,
-      author: '',
-      name: '',
-      year: '',
-      image: './src/img/epochs/22.jpg',
-    },
-    {
-      id: 23,
       author: 'Джошуа Рейнольдс',
       name: 'Младенец Геракл, удушающий змей, подосланных Герой',
       year: '1786',
       image: './src/img/epochs/23.jpg',
+    },
+    {
+      id: 23,
+      author: 'Адриан ван Остаде',
+      name: 'Крестьяне за выпивкой',
+      year: '1676',
+      image: './src/img/epochs/22.jpg',
     },
     {
       id: 24,
