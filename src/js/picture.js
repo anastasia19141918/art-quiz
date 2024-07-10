@@ -308,7 +308,7 @@ function randomItem () {
   const result = arrowNumber[randomIndex];
  
   questionAnswers.insertBefore(questionAnswer[result], null);
-  questionAnswers.insertBefore(questionAnswer[0], questionAnswer[result]);
+  questionAnswers.insertBefore(questionAnswer[2], questionAnswer[result]);
 }
 
 
