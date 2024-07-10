@@ -1,8 +1,7 @@
 .pop-art {
+  display: none;
   position: fixed;
-  opacity: 0;
   transition: .5s all;
-  pointer-events: none;
   width: 100%;
   height: 100vh;
   top: 0;
@@ -11,10 +10,8 @@
 }
 
 .pop-art__active {
-  opacity: 1;
-  transition: .5s all;
-  pointer-events: all;
-}
+  display: block;
+ }
 
 .pop-art__body {
   top: 3%;
@@ -71,6 +68,9 @@
   margin: 10px auto 10px;
   object-fit: cover;
   border-radius: 15px;
+  
+  animation: show .9s  ease-in-out;
+  animation-timing-function:linear;
   @include media-mabale-popap {
     width: 300px;
     height: 300px;
@@ -90,17 +90,13 @@
 }
 
 .pop-art__check {
-  width: 60px;
-  height: 60px;
-  margin: auto;
-  background-image: url('/src/img/pop/right.jpg');
-  background-size: 60px 60px;
-  @include media-tablet-popap {
-    width: 30px;
-    height: 30px;
-    background-size: 30px 30px;
-  }
+  color: $color-answer-false;
+  font-size: 2.0rem;
+  font-weight: 600;
+  text-align: center;
 }
+
+
 
 .pop-art_desk {
   display: flex;
@@ -149,5 +145,18 @@
   }
   @include media-mabale-popap {
     width: 180px;
+  }
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+    box-shadow: -1px 0px 5px 9px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 0px 5px 9px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 0px 5px 9px rgba(0,0,0,0.75);
+  }
+  to {
+    opacity: 1;
+    
   }
 }

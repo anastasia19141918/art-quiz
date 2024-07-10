@@ -90,6 +90,11 @@
 };
 
 //Painting Question
+
+@mixin media-desktop-question {
+  @media (max-width: $media-desktop-question) { @content; }
+};
+
 @mixin media-tablet-question-painting {
   @media (max-width: $media-tablet-question-painting) { @content; }
 };
@@ -104,6 +109,10 @@
 
 @mixin media-mobale-question-painting {
   @media (max-width: $media-mobale-question-painting) { @content; }
+};
+
+@mixin media-mobale-painting {
+  @media (max-width: $media-mobale-painting) { @content; }
 };
 
 @mixin media-mobale-small-question-painting {

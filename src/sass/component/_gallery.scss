@@ -1,14 +1,15 @@
 .art__gallery {
+  display: block;
   padding: 30px;
 }
 
 .art__gallery_title {
-  opacity: 1;
   margin: 0 0 70px 0;
   text-align: center;
   color: $color-categories;
   font-size: 3.5rem;
   letter-spacing: 0.2rem;
+  
   @include media-desktop-artist {
     font-size: 3.0rem;
   }
@@ -21,9 +22,7 @@
 }
 
 .art__gallery_title_active {
-  opacity: 0;
-  transition: .5s all;
-  pointer-events: none;
+  display: none;
 }
 
 .gallery {
@@ -53,12 +52,8 @@
   }
 }
 
-.gallery_picture {
-  opacity: 1;
-}
-
 .gallery__active {
-  opacity: 0;
+  display: none;
   transition: .5s all;
   pointer-events: none;
 }
@@ -224,3 +219,5 @@
 }
 
 //animation end
+
+

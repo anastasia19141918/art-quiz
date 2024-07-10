@@ -1,0 +1,127 @@
+.result {
+  display: none;
+  position: fixed;
+  transition: .5s all;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.result__active {
+  display: block;
+  //opacity: 1;
+  //transition: .5s all;
+  //pointer-events: all;
+}
+
+.result__body {
+  top: 15%;
+  left: 30%;
+  width: 450px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px 0px;
+  padding: 20px;
+  background-color: $color-logo;
+  border-radius: 10px;
+  @include media-tablet-question-painting {
+    top: 15%;
+    left: 20%;
+  }
+  @include media-tablet {
+    width: 380px;
+    top: 16%;
+    left: 18%;
+  }
+  @include media-mobale-big-question-painting {
+    width: 330px;
+    top: 16%;
+    left: 12%;
+  }
+  @include media-mobale-small {
+    width: 300px;
+    top: 16%;
+    left: 10%;
+  }
+  @include media-tablet-mobale-question {
+    width: 280px;
+    top: 16%;
+    left: 10%;
+  }
+  @include media-mobale {
+    width: 240px;
+  }
+  @include media-tablet-mobale-big-question {
+    width: 210px;
+  }
+  @include media-mobale-small-question-painting {
+    width: 180px;
+    left: 8%;
+    top: 20%;
+  }
+  @include media-mabale-popap {
+    width: 150px;
+    left: 8%;
+    top: 22%;
+  }
+}
+
+.result__img {
+  width: 200px;
+  height: 250px;
+  border-radius: 20px;
+  @include media-mobale-small-question-painting {
+    width: 150px;
+    height: 200px;
+  }
+}
+
+.result__title, .result__score {
+  color: $color-body;
+  font-size: 1.8rem;
+}
+
+.result__btns {
+  display: flex;
+  flex-direction: row;
+  gap: 0 20px;
+  @include media-mobale-big-question-painting {
+    gap: 0 10px;
+  }
+  @include media-mobale {
+    flex-direction: column;
+    gap: 10px 0;
+  }
+}
+
+.result__btn {
+  width: 110px;
+  padding: 5px;
+  text-align: center;
+  color: $color-body;
+  font-size: 2.0rem;
+  border: 1px solid $color-body;
+  background-color: $color-answer;
+  border-radius: 10px;
+  cursor: pointer;
+  @include media-mobale-big-question-painting {
+    width: 90px;
+    font-size: 1.8rem;
+  }
+  @include media-tablet-mobale-question {
+    width: 75px;
+    font-size: 1.5rem;
+  }
+  @include media-mobale {
+    padding: 5px 1px;
+    width: 220px;
+    font-size: 1.5rem;
+  }
+  @include media-mobale-small-question-painting {
+    width: 150px;
+  }
+}

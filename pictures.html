@@ -12,13 +12,14 @@
     <div class="wrapper header__wrapper_artist">
       <h1 class="header__logo header__artist">ART Quiz</h1>
       <a href="https://anastasia19141918.github.io/art-quiz/" class="header__link header__artist">HOME</a>
-      <a href="https://anastasia19141918.github.io/art-quiz/pictures.html" class="header__categories header__artist">Categories</a>
+      <a href="" class="header__categories header__artist">Categories</a>
     </div>
 </header>
 <main>
-  <section class="art__gallery">
+  <section class="art__gallery" id="art__gallery">
   <div class="wrapper">
     <h2 class="art__gallery_title" id="gallery_title_picture">Викторина по Картинам</h2>
+
     <div class="gallery gallery_picture" id="gallery_picture">
 
       <div class="gallery__item gallery__item_picture gallery__item_picture_port">
@@ -54,7 +55,7 @@
       </div>
 
       <div class="gallery__item gallery__item_picture gallery__item_picture_impressionism">
-        <div class="gallery__title">Импрессионизм,Постимпрессионизм</div>
+        <div class="gallery__title">Импрессионизм</div>
       </div>
 
       <div class="gallery__item gallery__item_picture gallery__item_picture_startXIX">
@@ -69,6 +70,7 @@
         <div class="gallery__title">Живопись начало XX века</div>
       </div>
     </div>
+
   </div>
 </section>
 
@@ -81,7 +83,7 @@
     </div>
 
     <div class="question__pagination">
-      <div class="question__pag"></div>
+      <div class="question__pag question__pag__active"></div>
       <div class="question__pag"></div>
       <div class="question__pag"></div>
       <div class="question__pag"></div>
@@ -94,13 +96,44 @@
     </div>
 
     <div class="question__answers" id="question__answers">
-      <div class="question__answer"></div>
-      <div class="question__answer"></div>
-      <div class="question__answer"></div>
+      <div class="question__answer question__answer_true" id="question__answer_true"></div>
+      <div class="question__answer answer"></div>
+      <div class="question__answer answer"></div>
+      <div class="question__answer answer"></div>
     </div>
   </div>
 </section>
 
+<section class="pop-art" id="pop-art">
+  <div class="wrapper">
+    <div class="pop-art__body">
+      <div class="pop-art__header" id="pop-art__header">
+       
+      </div>
+      <div class="pop-art__check" id="pop-art__check"></div>
+      <div class="pop-art_desk" id="pop-art_desk">
+        
+      </div>
+      <div class="pop-art__button" id="pop-art__button">
+        <button class="pop-art__butn">Next</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="result" id="result">
+  <div class="wrapper">
+    <div class="result__body">
+      <img src="./src/img/pic/port.jpg" alt="img" class="result__img">
+      <div class="result__title">Ваш результат</div>
+      <div class="result__score"><span class="result__number" id="result__number"></span>/10</div>
+      <div class="result__btns">
+        <a href="https://anastasia19141918.github.io/art-quiz/" class="result__home result__btn">Home</a>
+        <a href="" class="result__categories result__btn">Categories</a>
+      </div>
+    </div>
+  </div>
+</section>
 
 </main>
 <script type="module" src="/src/js/picture.js"></script>
