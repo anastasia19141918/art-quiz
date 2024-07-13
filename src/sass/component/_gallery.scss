@@ -178,7 +178,92 @@
     width: 150px;
     height: 180px;
   }
-  
+}
+
+.gallery__item_art {
+  &_port {
+    background-image: url('../../src/img/categories/Портреты.jpg');
+    background-size: 250px 250px;
+  }
+
+  &_scenery {
+    background-image: url('../../src/img/categories/Пейзажи.jpg');
+    background-size: 250px 250px;
+  }
+
+  &_domestic {
+    background-image: url('../../src/img/categories/Бытовой жанр.jpg');
+    background-size: 250px 250px;
+  }
+
+  &_mythology {
+    background-image: url('../../src/img/categories/Мифологический сюжет.jpg');
+    background-size: 250px 250px;
+  }
+
+  &_historical {
+    background-image: url('../../src/img/categories/Исторический жанр.jpg');
+    background-size: 250px 250px;
+  }
+
+  &_renaissance {
+    background-image: url('../../src/img/categories/Возрождение.jpg');
+    background-size: 250px 250px;
+  }
+
+  &_russia {
+    background-image: url('../../src/img/categories/Русские художники.jpg');
+    background-size: 250px 250px;
+  }
+
+  &_era {
+    background-image: url('../../src/img/categories/Живопись_15-18В.jpg');
+    background-size: 250px 250px;
+  }
+
+  &_impressionism {
+    background-image: url('../../src/img/categories/Импрессионизм.jpg');
+    background-size: 250px 250px;
+  }
+
+  &_startXIX {
+    background-image: url('../../src/img/categories/1_пол_19В.jpg');
+    background-size: 250px 250px;
+  }
+
+  &_endtXIX {
+    background-image: url('../../src/img/categories/2_пол_19В.jpg');
+    background-size: 250px 250px;
+  }
+
+  &_starttXX {
+    background-image: url('/src/img/categories/Начало_20В.jpg');
+    background-size: 250px 250px;
+  }
+
+  @include media-tablet-big {
+    width: 195px;
+    height: 206px;
+  }
+  @include media-tablet-big {
+    gap: 20px 0px;
+  }
+  @include media-tablet {
+    width: 159px;
+    height: 200px;
+  }
+  @include media-mobale-small {
+    width: 150px;
+    height: 180px;
+  }
+  @include media-mobale {
+    width: 195px;
+    height: 206px;
+  }
+  @include media-small-mobale {
+    width: 150px;
+    height: 180px;
+  }
 }
 
 .gallery__title {

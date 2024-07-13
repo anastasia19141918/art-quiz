@@ -443,6 +443,90 @@ a {
   }
 }
 
+.gallery__item_art_port {
+  background-image: url("../../src/img/categories/Портреты.jpg");
+  background-size: 250px 250px;
+}
+.gallery__item_art_scenery {
+  background-image: url("../../src/img/categories/Пейзажи.jpg");
+  background-size: 250px 250px;
+}
+.gallery__item_art_domestic {
+  background-image: url("../../src/img/categories/Бытовой жанр.jpg");
+  background-size: 250px 250px;
+}
+.gallery__item_art_mythology {
+  background-image: url("../../src/img/categories/Мифологический сюжет.jpg");
+  background-size: 250px 250px;
+}
+.gallery__item_art_historical {
+  background-image: url("../../src/img/categories/Исторический жанр.jpg");
+  background-size: 250px 250px;
+}
+.gallery__item_art_renaissance {
+  background-image: url("../../src/img/categories/Возрождение.jpg");
+  background-size: 250px 250px;
+}
+.gallery__item_art_russia {
+  background-image: url("../../src/img/categories/Русские художники.jpg");
+  background-size: 250px 250px;
+}
+.gallery__item_art_era {
+  background-image: url("../../src/img/categories/Живопись_15-18В.jpg");
+  background-size: 250px 250px;
+}
+.gallery__item_art_impressionism {
+  background-image: url("../../src/img/categories/Импрессионизм.jpg");
+  background-size: 250px 250px;
+}
+.gallery__item_art_startXIX {
+  background-image: url("../../src/img/categories/1_пол_19В.jpg");
+  background-size: 250px 250px;
+}
+.gallery__item_art_endtXIX {
+  background-image: url("../../src/img/categories/2_пол_19В.jpg");
+  background-size: 250px 250px;
+}
+.gallery__item_art_starttXX {
+  background-image: url("/src/img/categories/Начало_20В.jpg");
+  background-size: 250px 250px;
+}
+@media (max-width: 855px) {
+  .gallery__item_art {
+    width: 195px;
+    height: 206px;
+  }
+}
+@media (max-width: 855px) {
+  .gallery__item_art {
+    gap: 20px 0px;
+  }
+}
+@media (max-width: 695px) {
+  .gallery__item_art {
+    width: 159px;
+    height: 200px;
+  }
+}
+@media (max-width: 471px) {
+  .gallery__item_art {
+    width: 150px;
+    height: 180px;
+  }
+}
+@media (max-width: 395px) {
+  .gallery__item_art {
+    width: 195px;
+    height: 206px;
+  }
+}
+@media (max-width: 301px) {
+  .gallery__item_art {
+    width: 150px;
+    height: 180px;
+  }
+}
+
 .gallery__title {
   height: 30px;
   margin-bottom: 25px;
