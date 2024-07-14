@@ -13,13 +13,31 @@
   left: 0;
 }
 
+.question__art {
+  position: absolute;
+  opacity: 0;
+  transition: .5s all;
+  pointer-events: none;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.question__art__active {
+  opacity: 1;
+  transition: .5s all;
+  pointer-events: all;
+} 
+
 .question_picture__active {
   opacity: 1;
   transition: .5s all;
   pointer-events: all;
 }
 
-.question_picture__wrapper {
+.question_picture__wrapper,
+.question_art__wrapper {
   padding: 3% 0 3% 0;
   @include media-desktop-question {
     padding: 8% 0 3% 0;
@@ -215,3 +233,6 @@
   }
 }
 
+.question__title_aftor {
+  color: #e18b34;
+}
