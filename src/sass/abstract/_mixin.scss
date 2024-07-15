@@ -139,3 +139,16 @@
 @mixin media-mabale-popap {
   @media (max-width: $media-mabale-popap) { @content; }
 };
+
+@mixin media-mobale-first {
+  @media (max-width: $media-mobale-first) { @content; }
+};
+
+@mixin media-mobale-first-popap {
+  @media (max-width: $media-mobale-first-popap) { @content; }
+};
+
+@mixin media-tablet-popap-mobale-first {
+  @media (max-width: $media-tablet-popap-mobale-first) { @content; }
+};
+
