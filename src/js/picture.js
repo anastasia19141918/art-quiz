@@ -4,7 +4,7 @@ import shuffleImg from './createPucture.js';
 
 let questionIndex = 0; //вопрос
 let score = 0;//счёт
-let next = 0;
+
 
 const gallery = document.getElementById('gallery_picture');
 const artGallery = document.getElementById('art__gallery');
@@ -197,7 +197,7 @@ function creatPicture(e) {
   });
 
   answers.forEach(function(el,i) {
-  el.innerHTML = e[i].author;
+    el.innerHTML = e[i].author;
   });
 
 randomItem();
