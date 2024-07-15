@@ -52,10 +52,21 @@
     width: 300px;
     padding: 10px 15px;
   }
+  @include media-mabale-popap-first {
+    top: 15%;
+    left: 10%;
+  }
+  @include media-mabale-popap-small-first {
+    top: 15%;
+    left: 6%;
+  }
   @include media-mabale-big-popap {
     width: 250px;
     left: 10%;
     top: 15%;
+  }
+  @include media-mabale-big-popap-first {
+    left: 7%;
   }
   @include media-mabale-small-popap {
     width: 220px;

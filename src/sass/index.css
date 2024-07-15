@@ -1006,11 +1006,28 @@ a {
     padding: 10px 15px;
   }
 }
+@media (max-width: 450px) {
+  .pop-art__body {
+    top: 15%;
+    left: 10%;
+  }
+}
+@media (max-width: 415px) {
+  .pop-art__body {
+    top: 15%;
+    left: 6%;
+  }
+}
 @media (max-width: 379px) {
   .pop-art__body {
     width: 250px;
     left: 10%;
     top: 15%;
+  }
+}
+@media (max-width: 344px) {
+  .pop-art__body {
+    left: 7%;
   }
 }
 @media (max-width: 317px) {
