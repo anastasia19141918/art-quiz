@@ -871,7 +871,7 @@ a {
 .question__gallery_painting {
   margin-bottom: 30px;
   display: grid;
-  grid-template-columns: repeat(2, 0.3fr);
+  grid-template-columns: repeat(2, 0.1fr);
   justify-content: center;
   gap: 30px 30px;
 }
