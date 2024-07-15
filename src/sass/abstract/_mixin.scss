@@ -152,3 +152,16 @@
   @media (max-width: $media-tablet-popap-mobale-first) { @content; }
 };
 
+@mixin media-mabale-popap-first () {
+  @media (max-width: $media-mabale-popap-first) { @content; }
+}
+
+@mixin media-mabale-popap-small-first () {
+  @media (max-width: $media-mabale-popap-small-first) { @content; }
+}
+
+@mixin media-mabale-big-popap-first () {
+  @media (max-width: $media-mabale-big-popap-first) { @content; }
+}
+
+
