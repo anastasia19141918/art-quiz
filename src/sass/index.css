@@ -612,19 +612,19 @@ a {
 @media (max-width: 1000px) {
   .question_picture__wrapper,
   .question_art__wrapper {
-    padding: 8% 0 3% 0;
+    padding: 22% 0 3% 0;
   }
 }
 @media (max-width: 366px) {
   .question_picture__wrapper,
   .question_art__wrapper {
-    padding: 15% 0 3% 0;
+    padding: 33% 0 3% 0;
   }
 }
 @media (max-width: 304px) {
   .question_picture__wrapper,
   .question_art__wrapper {
-    padding: 45% 0 3% 0;
+    padding: 56% 0 3% 0;
   }
 }
 

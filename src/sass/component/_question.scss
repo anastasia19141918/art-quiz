@@ -41,13 +41,13 @@
 .question_art__wrapper {
   padding: 3% 0 3% 0;
   @include media-desktop-question {
-    padding: 8% 0 3% 0;
+    padding: 22% 0 3% 0;
   }
   @include media-mobale-painting {
-    padding: 15% 0 3% 0;
+    padding: 33% 0 3% 0;
   }
   @include media-mobale-small-question-painting {
-    padding: 45% 0 3% 0;
+    padding: 56% 0 3% 0;
   }
 }
 
