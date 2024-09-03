@@ -91,6 +91,23 @@
 
 //Painting Question
 
+@mixin media-mobale-result-popap {
+  @media (max-width: $media-mobale-result-popap) { @content;}
+};
+
+@mixin media-mobale-result-popap-small {
+  @media (max-width: $media-mobale-result-popap-small) { @content;}
+};
+
+@mixin media-tablet-result-popap-small {
+  @media (max-width: $media-tablet-result-popap-small) { @content;}
+};
+
+@mixin media-mobale-result {
+  @media (max-width: $media-mobale-result) { @content;}
+}
+
+
 @mixin media-desktop-question {
   @media (max-width: $media-desktop-question) { @content; }
 };
