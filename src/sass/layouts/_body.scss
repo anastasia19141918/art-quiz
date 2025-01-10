@@ -1,12 +1,11 @@
-.html-quiz {
-  width: 100%;
-  height: 100%;
+.bg {
+  padding: 0 0 20% 0;
   background-image: url('../../src/img/pic/photo_2024-06-16_15-59-07.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top center;
+  background-position: 0 80%;
 };
 
-.body-gallery {
+.body {
   background-color: $color-body;
 }
