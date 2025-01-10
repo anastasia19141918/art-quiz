@@ -1,13 +1,8 @@
-.picture {
-  padding: 60px 30px;
-  @include media-mobale {
-    padding: 5px;
-  }
-}
+
 
 .picture__nav {
   display: flex;
-  padding: 17% 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
