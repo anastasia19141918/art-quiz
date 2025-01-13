@@ -1,3 +1,5 @@
+@use'../abstract/constans' as c;
+
 .pop-art {
   display: none;
   position: fixed;
@@ -22,9 +24,9 @@
   padding: 30px 15px;
   display: flex;
   flex-direction: column;
-  background-color: $color-logo;
+  background-color: c.$color-logo;
   border-radius: 15px;
-  @include media-mobale-first-popap {
+  /*@include media-mobale-first-popap {
     top: 0%;
     left: 20%;
   }
@@ -81,7 +83,7 @@
   @include media-mobale-first {
     left: 5%;
     top: 15%;
-  }
+  }*/
 }
 
 .pop-art__header {
@@ -99,7 +101,7 @@
   
   animation: show .9s  ease-in-out;
   animation-timing-function:linear;
-  @include media-tablet-question-painting {
+  /*@include media-tablet-question-painting {
     width: 250px;
     height: 250px;
     
@@ -119,11 +121,11 @@
   @include media-mabale-popap {
     width: 180px;
     height: 180px;
-  }
+  }*/
 }
 
 .pop-art__check {
-  color: $color-answer-false;
+  color: c.$color-answer-false;
   font-size: 2.0rem;
   font-weight: 600;
   text-align: center;
@@ -140,13 +142,13 @@
 }
 
 .pop-art_name {
-  color: $color-body;
+  color: c.$color-body;
   font-size: 2.0rem;
   font-weight: 600;
 }
 
 .pop-art_author, .pop-art_year {
-  color: $color-body;
+  color: c.$color-body;
   font-size: 1.8rem;
 }
 
@@ -161,10 +163,10 @@
   padding: 10px 10px;
   border-radius: 20px;
   border: none;
-  background-color: $color-answer;
+  background-color: c.$color-answer;
   font-size: 2.0rem;
   cursor: pointer;
-  @include media-tablet-question-painting {
+  /*@include media-tablet-question-painting {
     width: 300px;
   }
   @include media-tablet-popap {
@@ -181,7 +183,7 @@
   }
   @include media-mabale-popap {
     width: 180px;
-  }
+  }*/
 }
 
 @keyframes show {

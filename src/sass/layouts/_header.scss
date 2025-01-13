@@ -1,3 +1,5 @@
+@use'../abstract/constans' as c;
+
 .header {
   padding: 30px;
 }
@@ -23,29 +25,29 @@
   justify-content: flex-start;
   flex-wrap: wrap;
   gap: 0 2%;
-  @include media-small-mobale {
-    flex-direction: column;
-    gap: 10px 0px;
-  }
+  //@include media-small-mobale {
+    //flex-direction: column;
+    //gap: 10px 0px;
+  //}
 }
 
 .header__artist {
   z-index: 7;
   margin: 0 0 0 0;
   font-size: 2.5rem;
-  color: $color-logo;
+  color: c.$color-logo;
   font-weight: 200;
   letter-spacing: 0.2rem;
   transition: .3s all;
-  @include media-mobale-small {
-    font-size: 4.0rem;
-  }
-  @include media-tablet {
-    font-size: 2.0rem;
-  }
+  //@include media-mobale-small {
+    //font-size: 4.0rem;
+  //}
+  //@include media-tablet {
+    //font-size: 2.0rem;
+  //}
 }
 
 .header__categories {
-  color: $color-categories;
+  color: c.$color-categories;
 }
 

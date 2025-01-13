@@ -1,3 +1,5 @@
+@use'../abstract/constans' as c;
+
 .art__gallery {
   display: block;
   padding: 30px;
@@ -6,11 +8,11 @@
 .art__gallery_title {
   margin: 0 0 70px 0;
   text-align: center;
-  color: $color-categories;
+  color: c.$color-categories;
   font-size: 3.5rem;
   letter-spacing: 0.2rem;
   
-  @include media-desktop-artist {
+  /*@include media-desktop-artist {
     font-size: 3.0rem;
   }
   @include media-tablet {
@@ -18,7 +20,7 @@
   }
   @include media-small-mobale {
     font-size: 2.0rem;
-  }
+  }*/
 }
 
 .art__gallery_title_active {
@@ -29,7 +31,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 40px 20px;
-  @include media-desktop-artist {
+  /*@include media-desktop-artist {
     grid-template-columns: repeat(3, 1fr);
     gap: 50px 0px;
   }
@@ -49,7 +51,7 @@
   @include media-mobale {
     grid-template-columns: repeat(1, 1fr);
     gap: 70px 0px;
-  }
+  }*/
 }
 
 .gallery__active {
@@ -69,7 +71,7 @@
   animation: show .7s  ease-in-out;
   animation-timing-function:linear;
 
- @include media-tablet-big {
+ /*@include media-tablet-big {
     width: 195px;
     height: 206px;
   }
@@ -91,7 +93,7 @@
   @include media-small-mobale {
     width: 150px;
     height: 180px;
-  }
+  }*/
 }
 
 .gallery__item_picture {
@@ -155,7 +157,7 @@
     background-size: 250px 250px;
   }
 
-  @include media-tablet-big {
+  /*@include media-tablet-big {
     width: 195px;
     height: 206px;
   }
@@ -177,7 +179,7 @@
   @include media-small-mobale {
     width: 150px;
     height: 180px;
-  }
+  }*/
 }
 
 .gallery__item_art {
@@ -241,7 +243,7 @@
     background-size: 250px 250px;
   }
 
-  @include media-tablet-big {
+  /*@include media-tablet-big {
     width: 195px;
     height: 206px;
   }
@@ -263,18 +265,18 @@
   @include media-small-mobale {
     width: 150px;
     height: 180px;
-  }
+  }*/
 }
 
 .gallery__title {
   height: 30px;
   margin-bottom: 25px;
   text-align: center;
-  color: $color-link;
+  color: c.$color-link;
   font-size: 2.0rem;
   font-weight: 600;
   letter-spacing: 0.2rem;
-  @include media-desktop-artist {
+  /*@include media-desktop-artist {
     font-size: 1.8rem;
   }
   @include media-tablet-big {
@@ -283,7 +285,7 @@
   }
   @include media-tablet {
     font-size: 1.5rem;
-  }
+  }*/
 }
 
 
@@ -299,7 +301,6 @@
   }
   to {
     opacity: 1;
-    
   }
 }
 

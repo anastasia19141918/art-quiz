@@ -4,12 +4,12 @@
   grid-template-columns: repeat(2, 0.1fr);
   justify-content: center;
   gap: 30px 30px;
-  @include media-mobale-big-question-painting {
+  /*@include media-mobale-big-question-painting {
     gap: 20px 10px;
   }
   @include media-mobale-small-question-painting {
     gap: 10px 10px;
-  }
+  }*/
 }
 
 .question__paintings {
@@ -17,7 +17,7 @@
   height: 300px;
   border-radius: 15px;
   transition: .5s all;
-  @include media-tablet-question-painting {
+  /*@include media-tablet-question-painting {
     width: 300px;
     height: 250px;
   }
@@ -44,7 +44,7 @@
   @include media-mobale-small-question {
     width: 100px;
     height: 100px;
-  }
+  }*/
 }
 
 .question__paintings__active {

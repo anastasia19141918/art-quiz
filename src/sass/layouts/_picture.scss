@@ -1,4 +1,5 @@
 
+@use'../abstract/constans' as c;
 
 .picture__nav {
   display: flex;
@@ -6,11 +7,11 @@
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  @include media-tablet-big {
-    flex-direction: column;
-    gap: 20px 0;
-    align-items: center;
-  }
+  //@include media-tablet-big {
+    //flex-direction: column;
+    //gap: 20px 0;
+    //align-items: center;
+  //}
 }
 
 .picture__link {
@@ -19,13 +20,13 @@
   text-align: center;
   font-size: 2.0rem;
   font-weight: 600;
-  border: 2px solid $color-link;
+  border: 2px solid c.$color-link;
   border-radius: 20px;
-  color: $color-link;
-  @include media-mobale-small {
-    font-size: 1.5rem;
-  }
-  @include media-mobale-small {
-    width: 200px;
-  }
+  color: c.$color-link;
+  //@include media-mobale-small {
+    //font-size: 1.5rem;
+  //}
+  //@include media-mobale-small {
+  //  width: 200px;
+ // }
 }
