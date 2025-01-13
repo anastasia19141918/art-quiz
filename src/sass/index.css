@@ -309,16 +309,18 @@ template {
 }
 
 .logo {
-  padding: 120px;
+  position: absolute;
+  margin: 30% 0 0 30%;
+  padding: 10px;
 }
 
 .logo__title {
   margin: 0 0 30px 0;
   text-align: center;
-  color: #fffbde;
-  font-size: 7.7rem;
-  font-weight: 200;
+  font-size: 14.7rem;
+  font-weight: 300;
   letter-spacing: 0.5rem;
+  color: #038C7F;
 }
 
 html {
@@ -335,7 +337,7 @@ a {
 }
 
 .bg {
-  padding: 0 0 20% 0;
+  padding: 0 0 72% 0;
   background-image: url("../../src/img/pic/photo_2024-06-16_15-59-07.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -384,32 +386,40 @@ body, .body-gallery {
   color: #e18b34;
 }
 
+.picture {
+  position: relative;
+}
+
 .picture__nav {
+  position: absolute;
   display: flex;
-  padding: 0px 0px 0px 0px;
-  flex-direction: row;
+  margin: 62% 0 0 65%;
+  padding: 20px 20px 20px 20px;
+  flex-direction: column;
+  gap: 20px 0px;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
 .picture__link {
-  width: 260px;
+  width: 360px;
   padding: 8px 5px;
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 600;
-  border: 2px solid #fffbf4;
+  border: 4px solid #FFBCA2;
   border-radius: 20px;
-  color: #fffbf4;
+  color: #FFBCA2;
 }
 
 .footer {
   background-color: #000000;
+  padding: 0 20px;
 }
 
 .footer__link {
   display: flex;
-  padding: 30px 0px 0px 0px;
+  padding: 30px 0px 30px 0px;
   flex-direction: row;
   justify-content: space-between;
 }

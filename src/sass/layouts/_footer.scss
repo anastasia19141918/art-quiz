@@ -2,11 +2,12 @@
 
 .footer {
   background-color: c.$color-body;
+  padding: 0 20px;
 }
 
 .footer__link {
   display: flex;
-  padding: 30px 0px 0px 0px;
+  padding: 30px 0px 30px 0px;
   flex-direction: row;
   justify-content: space-between;
   //@include media-mobale-small {

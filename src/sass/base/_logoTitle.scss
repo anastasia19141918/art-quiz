@@ -2,16 +2,19 @@
 @use'../abstract/media' as m;
 
 .logo {
-  padding: 120px;
+  position: absolute;
+  margin: 30% 0 0 30%;
+  padding: 10px;
+  
 }
 
 .logo__title {
   margin: 0 0 30px 0;
   text-align: center;
-  color: c.$color-logo;
-  font-size: 7.7rem;
-  font-weight: 200;
+  font-size: 14.7rem;
+  font-weight: 300;
   letter-spacing: 0.5rem;
+  color: c.$color-logo-bg;
   //@include m.media-mobale-small {
     //font-size: 4.0rem;
   //}
