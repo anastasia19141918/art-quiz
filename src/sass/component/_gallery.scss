@@ -1,4 +1,5 @@
 @use'../abstract/constans' as c;
+@use'../abstract/mixin' as m;
 
 .art__gallery {
   display: block;
@@ -12,15 +13,15 @@
   font-size: 3.5rem;
   letter-spacing: 0.2rem;
   
-  /*@include media-desktop-artist {
+  @include m.media-desktop-artist {
     font-size: 3.0rem;
   }
-  @include media-tablet {
+  @include m.media-tablet {
     font-size: 2.6rem;
   }
-  @include media-small-mobale {
+  @include m.media-small-mobale {
     font-size: 2.0rem;
-  }*/
+  }
 }
 
 .art__gallery_title_active {
@@ -31,27 +32,27 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 40px 20px;
-  /*@include media-desktop-artist {
+  @include m.media-desktop-artist {
     grid-template-columns: repeat(3, 1fr);
     gap: 50px 0px;
   }
-  @include media-tablet-big {
+  @include m.media-tablet-big {
     justify-items: center;
   }
-  @include media-tablet-big {
+  @include m.media-tablet-big {
     padding-bottom: 60px;
     gap: 70px 0px;
   }
-  @include media-tablet {
+  @include m.media-tablet {
     gap: 50px 0px;
   }
-  @include media-tablet-small {
+  @include m.media-tablet-small {
     grid-template-columns: repeat(2, 1fr);
   }
-  @include media-mobale {
+  @include m.media-mobale {
     grid-template-columns: repeat(1, 1fr);
     gap: 70px 0px;
-  }*/
+  }
 }
 
 .gallery__active {
@@ -71,29 +72,29 @@
   animation: show .7s  ease-in-out;
   animation-timing-function:linear;
 
- /*@include media-tablet-big {
+ @include m.media-tablet-big {
     width: 195px;
     height: 206px;
   }
-  @include media-tablet-big {
+  @include m.media-tablet-big {
     gap: 20px 0px;
   }
-  @include media-tablet {
+  @include m.media-tablet {
     width: 159px;
     height: 200px;
   }
-  @include media-mobale-small {
+  @include m.media-mobale-small {
     width: 150px;
     height: 180px;
   }
-  @include media-mobale {
+  @include m.media-mobale {
     width: 195px;
     height: 206px;
   }
-  @include media-small-mobale {
+  @include m.media-small-mobale {
     width: 150px;
     height: 180px;
-  }*/
+  }
 }
 
 .gallery__item_picture {
@@ -157,29 +158,29 @@
     background-size: 250px 250px;
   }
 
-  /*@include media-tablet-big {
+  @include m.media-tablet-big {
     width: 195px;
     height: 206px;
   }
-  @include media-tablet-big {
+  @include m.media-tablet-big {
     gap: 20px 0px;
   }
-  @include media-tablet {
+  @include m.media-tablet {
     width: 159px;
     height: 200px;
   }
-  @include media-mobale-small {
+  @include m.media-mobale-small {
     width: 150px;
     height: 180px;
   }
-  @include media-mobale {
+  @include m.media-mobale {
     width: 195px;
     height: 206px;
   }
-  @include media-small-mobale {
+  @include m.media-small-mobale {
     width: 150px;
     height: 180px;
-  }*/
+  }
 }
 
 .gallery__item_art {
@@ -243,29 +244,29 @@
     background-size: 250px 250px;
   }
 
-  /*@include media-tablet-big {
+  @include m.media-tablet-big {
     width: 195px;
     height: 206px;
   }
-  @include media-tablet-big {
+  @include m.media-tablet-big {
     gap: 20px 0px;
   }
-  @include media-tablet {
+  @include m.media-tablet {
     width: 159px;
     height: 200px;
   }
-  @include media-mobale-small {
+  @include m.media-mobale-small {
     width: 150px;
     height: 180px;
   }
-  @include media-mobale {
+  @include m.media-mobale {
     width: 195px;
     height: 206px;
   }
-  @include media-small-mobale {
+  @include m.media-small-mobale {
     width: 150px;
     height: 180px;
-  }*/
+  }
 }
 
 .gallery__title {
@@ -276,16 +277,16 @@
   font-size: 2.0rem;
   font-weight: 600;
   letter-spacing: 0.2rem;
-  /*@include media-desktop-artist {
+  @include m.media-desktop-artist {
     font-size: 1.8rem;
   }
-  @include media-tablet-big {
+  @include m.media-tablet-big {
     height: 0px;
     margin-bottom: 40px;
   }
-  @include media-tablet {
+  @include m.media-tablet {
     font-size: 1.5rem;
-  }*/
+  }
 }
 
 

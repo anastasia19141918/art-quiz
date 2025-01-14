@@ -1,15 +1,17 @@
+@use'../abstract/mixin' as m;
+
 .question__gallery_painting {
   margin-bottom: 30px;
   display: grid;
   grid-template-columns: repeat(2, 0.1fr);
   justify-content: center;
   gap: 30px 30px;
-  /*@include media-mobale-big-question-painting {
+  @include m.media-mobale-big-question-painting {
     gap: 20px 10px;
   }
-  @include media-mobale-small-question-painting {
+  @include m.media-mobale-small-question-painting {
     gap: 10px 10px;
-  }*/
+  }
 }
 
 .question__paintings {
@@ -17,34 +19,34 @@
   height: 300px;
   border-radius: 15px;
   transition: .5s all;
-  /*@include media-tablet-question-painting {
+  @include m.media-tablet-question-painting {
     width: 300px;
     height: 250px;
   }
-  @include media-tablet-small-question-painting {
+  @include m.media-tablet-small-question-painting {
     width: 250px;
     height: 250px;
   }
-  @include media-mobale-big-question-painting {
+  @include m.media-mobale-big-question-painting {
     width: 200px;
     height: 180px;
   }
-  @include  media-mobale-question-painting {
+  @include  m.media-mobale-question-painting {
     width: 160px;
     height: 160px;
   }
-  @include media-tablet-mobale-big-question {
+  @include m.media-tablet-mobale-big-question {
     width: 140px;
     height: 140px;
   }
-  @include media-mobale-small-question-painting {
+  @include m.media-mobale-small-question-painting {
     width: 120px;
     height: 120px;
   }
-  @include media-mobale-small-question {
+  @include m.media-mobale-small-question {
     width: 100px;
     height: 100px;
-  }*/
+  }
 }
 
 .question__paintings__active {
