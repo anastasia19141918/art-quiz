@@ -1,3 +1,6 @@
+@use'../abstract/constans' as c;
+@use'../abstract/mixin' as m;
+
 .pop-art {
   display: none;
   position: fixed;
@@ -22,63 +25,63 @@
   padding: 30px 15px;
   display: flex;
   flex-direction: column;
-  background-color: $color-logo;
+  background-color: c.$color-logo;
   border-radius: 15px;
-  @include media-mobale-first-popap {
+  @include m.media-mobale-first-popap {
     top: 0%;
     left: 20%;
   }
-  @include media-tablet-question-painting {
+  @include m.media-tablet-question-painting {
     top: 15%;
     left: 25%;
     width: 300px;
     padding: 10px 15px;
   }
-  @include media-tablet-popap {
+  @include m.media-tablet-popap {
     top: 10%;
     left: 25%;
     width: 300px;
     padding: 10px 15px;
   }
-  @include media-mabale-popap {
+  @include m.media-mabale-popap {
     top: 5%;
     left: 10%;
     width: 300px;
     padding: 10px 15px;
   }
-  @include media-tablet-popap-mobale-first {
+  @include m.media-tablet-popap-mobale-first {
     top: 12%;
     left: 15%;
     width: 300px;
     padding: 10px 15px;
   }
-  @include media-mabale-popap-first {
+  @include m.media-mabale-popap-first {
     top: 15%;
     left: 10%;
   }
-  @include media-mabale-popap-small-first {
+  @include m.media-mabale-popap-small-first {
     top: 15%;
     left: 6%;
   }
-  @include media-mabale-big-popap {
+  @include m.media-mabale-big-popap {
     width: 250px;
     left: 10%;
     top: 15%;
   }
-  @include media-mabale-big-popap-first {
+  @include m.media-mabale-big-popap-first {
     left: 7%;
   }
-  @include media-mabale-small-popap {
+  @include m.media-mabale-small-popap {
     width: 220px;
     left: 5%;
     top: 10%;
   }
-  @include media-mabale-popap {
+  @include m.media-mabale-popap {
     width: 180px;
     left: 5%;
     top: 10%;
   }
-  @include media-mobale-first {
+  @include m.media-mobale-first {
     left: 5%;
     top: 15%;
   }
@@ -99,37 +102,35 @@
   
   animation: show .9s  ease-in-out;
   animation-timing-function:linear;
-  @include media-tablet-question-painting {
+  @include m.media-tablet-question-painting {
     width: 250px;
     height: 250px;
     
   }
-  @include media-mabale-popap {
+  @include m.media-mabale-popap {
     width: 300px;
     height: 300px;
   }
-  @include media-mabale-big-popap {
+  @include m.media-mabale-big-popap {
     width: 250px;
     height: 250px;
   }
-  @include media-mabale-small-popap {
+  @include m.media-mabale-small-popap {
     width: 220px;
     height: 220px;
   }
-  @include media-mabale-popap {
+  @include m.media-mabale-popap {
     width: 180px;
     height: 180px;
   }
 }
 
 .pop-art__check {
-  color: $color-answer-false;
+  color: c.$color-answer-false;
   font-size: 2.0rem;
   font-weight: 600;
   text-align: center;
 }
-
-
 
 .pop-art_desk {
   display: flex;
@@ -140,13 +141,13 @@
 }
 
 .pop-art_name {
-  color: $color-body;
+  color: c.$color-body;
   font-size: 2.0rem;
   font-weight: 600;
 }
 
 .pop-art_author, .pop-art_year {
-  color: $color-body;
+  color: c.$color-body;
   font-size: 1.8rem;
 }
 
@@ -161,25 +162,25 @@
   padding: 10px 10px;
   border-radius: 20px;
   border: none;
-  background-color: $color-answer;
+  background-color: c.$color-answer;
   font-size: 2.0rem;
   cursor: pointer;
-  @include media-tablet-question-painting {
+  @include m.media-tablet-question-painting {
     width: 300px;
   }
-  @include media-tablet-popap {
+  @include m.media-tablet-popap {
     width: 250px;
   }
-  @include media-mabale-popap {
+  @include m.media-mabale-popap {
     width: 300px;
   }
-  @include media-mabale-big-popap {
+  @include m.media-mabale-big-popap {
     width: 250px;
   }
-  @include media-mabale-small-popap {
+  @include m.media-mabale-small-popap {
     width: 220px;
   }
-  @include media-mabale-popap {
+  @include m.media-mabale-popap {
     width: 180px;
   }
 }

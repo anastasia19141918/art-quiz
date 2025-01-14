@@ -1,3 +1,6 @@
+@use'../abstract/constans' as c;
+@use'../abstract/mixin' as m;
+
 .result {
   display: none;
   position: fixed;
@@ -23,71 +26,71 @@
   align-items: center;
   gap: 20px 0px;
   padding: 20px;
-  background-color: $color-logo;
+  background-color: c.$color-logo;
   border-radius: 10px;
-  @include media-mobale-result-popap {
+  @include m.media-mobale-result-popap {
     top: 20%;
     left: 25%;
   };
-  @include media-tablet-question-painting {
+  @include m.media-tablet-question-painting {
     top: 15%;
     left: 20%;
   };
-  @include media-mobale-result-popap-small {
+  @include m.media-mobale-result-popap-small {
     top: 15%;
     left: 16%;
   }
-  @include media-tablet {
+  @include m.media-tablet {
     width: 380px;
     top: 16%;
     left: 18%;
   };
-  @include media-tablet-result-popap-small {
+  @include m.media-tablet-result-popap-small {
     top: 16%;
     left: 15%;
   };
-  @include media-mobale-big-question-painting {
+  @include m.media-mobale-big-question-painting {
     width: 330px;
     top: 16%;
     left: 12%;
   };
-  @include media-mobale-result {
+  @include m.media-mobale-result {
     width: 300px;
     top: 16%;
     left: 13%;
   };
-  @include media-mobale-question-painting {
+  @include m.media-mobale-question-painting {
     width: 280px;
     top: 16%;
     left: 13%;
   };
-  @include media-mabale-popap-first {
+  @include m.media-mabale-popap-first {
     width: 260px;
     left: 14%;
   };
-  @include media-mabale-popap-small-first {
+  @include m.media-mabale-popap-small-first {
     width: 250px;
     left: 13%;
   };
-  @include media-mobale {
+  @include m.media-mobale {
     width: 240px;
   };
-  @include media-mabale-big-popap{
+  @include m.media-mabale-big-popap{
     width: 220px;
   };
-  @include media-tablet-mobale-big-question {
+  @include m.media-tablet-mobale-big-question {
     width: 210px;
   };
-  @include media-mabale-big-popap-first {
+  @include m.media-mabale-big-popap-first {
     width: 190px;
     left: 14%;
   };
-  @include media-mabale-small-popap {
+  @include m.media-mabale-small-popap {
     width: 170px;
     left: 11%;
     top: 20%;
   };
-  @include media-mabale-popap {
+  @include m.media-mabale-popap {
     width: 150px;
     left: 8%;
     top: 22%;
@@ -98,14 +101,14 @@
   width: 200px;
   height: 250px;
   border-radius: 20px;
-  @include media-mobale-small-question-painting {
+  @include m.media-mobale-small-question-painting {
     width: 150px;
     height: 200px;
   }
 }
 
 .result__title, .result__score {
-  color: $color-body;
+  color: c.$color-body;
   font-size: 1.8rem;
 }
 
@@ -113,10 +116,10 @@
   display: flex;
   flex-direction: row;
   gap: 0 20px;
-  @include media-mobale-big-question-painting {
+  @include m.media-mobale-big-question-painting {
     gap: 0 10px;
   }
-  @include media-mobale {
+  @include m.media-mobale {
     flex-direction: column;
     gap: 10px 0;
   }
@@ -126,29 +129,29 @@
   width: 110px;
   padding: 5px;
   text-align: center;
-  color: $color-body;
+  color: c.$color-body;
   font-size: 2.0rem;
-  border: 1px solid $color-body;
-  background-color: $color-answer;
+  border: 1px solid c.$color-body;
+  background-color: c.$color-answer;
   border-radius: 10px;
   cursor: pointer;
-  @include media-mobale-big-question-painting {
+  @include m.media-mobale-big-question-painting {
     width: 90px;
     font-size: 1.8rem;
   }
-  @include media-tablet-mobale-question {
+  @include m.media-tablet-mobale-question {
     width: 75px;
     font-size: 1.5rem;
   }
-  @include media-mobale {
+  @include m.media-mobale {
     padding: 5px 1px;
     width: 220px;
     font-size: 1.5rem;
   };
-  @include media-mabale-small-popap {
+  @include m.media-mabale-small-popap {
     width: 180px;
   };
-  @include media-mobale-small-question-painting {
+  @include m.media-mobale-small-question-painting {
     width: 150px;
   }
 }

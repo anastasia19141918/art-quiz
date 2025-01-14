@@ -1,19 +1,16 @@
-@import './normalize.css';
+@use './normalize.css';
 
-@import'abstract/constans';
-@import'abstract/mixin';
+@use'base/logoTitle';
+@use'base/base';
 
-@import'base/logoTitle';
-@import'base/base';
+@use'layouts/wrapper';
+@use'layouts/body';
+@use'layouts/header';
+@use'layouts/picture';
+@use'layouts/footer';
 
-@import'layouts/wrapper';
-@import'layouts/body';
-@import'layouts/header';
-@import'layouts/picture';
-@import'layouts/footer';
-
-@import'component/gallery';
-@import'component/question';
-@import'component/painting';
-@import'component/pop';
-@import'component/result';
+@use'component/gallery';
+@use'component/question';
+@use'component/painting';
+@use'component/pop';
+@use'component/result';

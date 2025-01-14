@@ -1,11 +1,56 @@
+@use'../abstract/constans' as c;
+@use'../abstract/mixin' as m;
+
 .bg {
-  padding: 0 0 20% 0;
+  padding: 0 0 72% 0;
   background-image: url('../../src/img/pic/photo_2024-06-16_15-59-07.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 80%;
+  @include m.media-desktop-artist {
+    padding: 0 0 81% 0;
+  };
+  @include m.media-desktop-big {
+    padding: 0 0 85% 0;
+  };
+  @include m.media-desktop-question {
+    padding: 0 0 90% 0;
+  };
+  @include m.media-desktop-small {
+    padding: 0 0 115% 0;
+  };
+  @include m.media-tablet-question {
+    padding: 0 0 125% 0;
+  };
+  @include m.media-tablet-big-question {
+    background-position: 70% 80%;
+    padding: 0 0 138% 0;
+  };
+  @include m.media-tablet-big-bg {
+    padding: 0 0 145% 0;
+  };
+  @include m.media-tablet-small {
+    padding: 0 0 165% 0;
+  };
+  @include m.media-mobale-result {
+    padding: 0 0 180% 0;
+  };
+  @include m.media-mabale-popap-first {
+    padding: 0 0 197% 0;
+  };
+  @include m.media-mabale-big-popap {
+    padding: 0 0 220% 0;
+  };
+  @include m.media-mabale-big-popap-first {
+    padding: 0 0 252% 0;
+  };
+  @include m.media-tablet-mobale-small-question {
+    padding: 0 0 270% 0;
+  }
 };
 
-.body {
-  background-color: $color-body;
-}
+body, .body-gallery {
+  background-color: c.$color-body;
+};
+
+
