@@ -4,6 +4,10 @@
   @media (max-width: me.$media-desktop-big) { @content; }
 };
 
+@mixin media-desktop-bg {
+  @media (max-width: me.$media-desktop-bg) { @content; }
+};
+
 @mixin media-desktop-small {
   @media (max-width: me.$media-desktop-small) { @content; }
 };
@@ -40,6 +44,10 @@
 @mixin media-tablet-big {
   @media (max-width: me.$media-tablet-big) { @content; }
 };
+
+@mixin media-tablet-big-bg {
+  @media (max-width: me.$media-tablet-big-bg) { @content; }
+}
 
 @mixin media-tablet {
   @media (max-width: me.$media-tablet) { @content; }
