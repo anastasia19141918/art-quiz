@@ -607,15 +607,10 @@ body, .body-gallery {
   text-align: center;
   font-size: 2.5rem;
   font-weight: 600;
-  border: 4px solid #FFBCA2;
+  border: 4px solid #038C7F;
+  background-color: #038C7F;
   border-radius: 20px;
-  color: #FFBCA2;
-}
-@media (max-width: 1000px) {
-  .picture__link {
-    color: #038C7F;
-    border: 4px solid #038C7F;
-  }
+  color: #000000;
 }
 @media (max-width: 930px) {
   .picture__link {
