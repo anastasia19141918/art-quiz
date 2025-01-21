@@ -281,7 +281,6 @@ function btnNextArtist() {
     showResultArts();
   }
 
-
   dotsActiveArtis();
 };
 
@@ -289,7 +288,6 @@ function showResultArts() {
   resultArtist.classList.add('result__active');
   resultArtNumber.innerText = score ++; 
 }
-
 
 function dotsActiveArtis() {
   if (questionIndex !== questionPagArtist.length-1) {
