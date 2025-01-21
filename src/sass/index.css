@@ -330,27 +330,27 @@ template {
 }
 @media (max-width: 649px) {
   .logo {
-    margin: 40% 0 0 6%;
+    margin: 0% 0 0 6%;
   }
 }
 @media (max-width: 608px) {
   .logo {
-    margin: 40% 0 0 2%;
+    margin: 5% 0 0 2%;
   }
 }
 @media (max-width: 499px) {
   .logo {
-    margin: 50% 0 0 2%;
+    margin: 10% 0 0 2%;
   }
 }
 @media (max-width: 379px) {
   .logo {
-    margin: 100% 0 0 2%;
+    margin: 10% 0 0 2%;
   }
 }
 @media (max-width: 344px) {
   .logo {
-    margin: 25% 0 0 2%;
+    margin: 10% 0 0 2%;
   }
 }
 
@@ -364,18 +364,18 @@ template {
 }
 @media (max-width: 649px) {
   .logo__title {
-    font-size: 12rem;
+    font-size: 14rem;
     letter-spacing: 0.3rem;
   }
 }
 @media (max-width: 499px) {
   .logo__title {
-    font-size: 9rem;
+    font-size: 12rem;
   }
 }
 @media (max-width: 379px) {
   .logo__title {
-    font-size: 6rem;
+    font-size: 10rem;
   }
 }
 
@@ -575,7 +575,7 @@ body, .body-gallery {
 }
 @media (max-width: 499px) {
   .picture__nav {
-    margin: 105% 0 0 3%;
+    margin: 135% 0 0 3%;
   }
 }
 @media (max-width: 450px) {
@@ -664,7 +664,6 @@ body, .body-gallery {
 }
 @media (max-width: 450px) {
   .footer__link {
-    flex-direction: column;
     gap: 20px 0px;
   }
 }
@@ -694,6 +693,11 @@ body, .body-gallery {
 @media (max-width: 450px) {
   .footer__desk {
     padding-left: 0px;
+  }
+}
+@media (max-width: 450px) {
+  .footer__desk {
+    font-size: 1.5rem;
   }
 }
 
