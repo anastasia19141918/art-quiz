@@ -1358,10 +1358,10 @@ let imagesPortraints = [
     },
     {
       id: 13,
-      author: 'Уолтер Сикерт',//Уолтер Сикерт
+      author: 'Уолтер Сикерт',
       name: 'Крошка Дот Хетерингтон в Старом Бедфорде',
       year: '1889',
-      image: './src/img/impressionism/13.jpg',
+      image: './src/img/impressionism/13.png',
     },
     {
       id: 14,
